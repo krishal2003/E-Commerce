@@ -23,12 +23,6 @@
       "static/chunks/node_modules_react-quill_lib_index_js.js"
     ]
   },
-  "..\\layouts\\compact\\CompactLayout.tsx -> ./Header": {
-    "id": "..\\layouts\\compact\\CompactLayout.tsx -> ./Header",
-    "files": [
-      "static/chunks/src_layouts_compact_Header_tsx.js"
-    ]
-  },
   "..\\layouts\\main\\MainLayout.tsx -> ./Footer": {
     "id": "..\\layouts\\main\\MainLayout.tsx -> ./Footer",
     "files": [
