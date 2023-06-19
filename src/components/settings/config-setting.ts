@@ -9,6 +9,6 @@ export const defaultSettings: SettingsValueProps = {
   themeDirection: 'ltr',
   themeContrast: 'default',
   themeLayout: 'vertical',
-  themeColorPresets: 'purple',
+  themeColorPresets: 'red',
   themeStretch: false,
 };

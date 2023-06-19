@@ -22,6 +22,7 @@ export const PATH_AUTH = {
 
 export const PATH_PAGE = {
   comingSoon: '/coming-soon',
+  shop: '/shop',
   blog: {
     root: '/blog',
     view: (title: string) => `/blog/post/${title}`,

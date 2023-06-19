@@ -132,18 +132,5 @@ export const _socials = [
     color: '#00AAEC',
     path: 'https://www.twitter.com/',
   },
-  {
-    value: 'Discord',
-    name: 'Discord',
-    icon: 'ic:baseline-discord',
-    color: '#00AAEC',
-    path: 'https://discord.com/servers',
-  },
-  {
-    value: 'twitch',
-    name: 'Twitch',
-    icon: 'mdi:twitch',
-    color: '#00AAEC',
-    path: 'https://www.twitch.tv/',
-  },
+
 ];

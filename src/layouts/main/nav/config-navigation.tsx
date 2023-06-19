@@ -12,30 +12,16 @@ const navConfig = [
     path: '/',
   },
   {
-    title: 'Blogs',
-    path: PATH_PAGE.blog.root,
+    title: 'Shop',
+    path: PATH_PAGE.shop,
     icon: <Iconify icon="eva:archive-fill" />,
   },
   {
-    title: 'Events',
-    path: PATH_PAGE.event.root,
+    title: 'About Us',
+    path: PATH_PAGE.about,
     icon: <Iconify icon="eva:archive-fill" />,
   },
-  {
-    title: 'Contact Us',
-    path: PATH_PAGE.contact,
-    icon: <Iconify icon="eva:archive-fill" />,
-  },
-  {
-    title: 'FAQs',
-    path: PATH_PAGE.faqs,
-    icon: <Iconify icon="eva:archive-fill" />,
-  },
-  {
-    title: 'Tournament',
-    path: PATH_PAGE.tournaments,
-    icon: <Iconify icon="eva:archive-fill" />,
-  },
+
   {
     title: 'Resources',
     path: '#',

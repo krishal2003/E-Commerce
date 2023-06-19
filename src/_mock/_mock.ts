@@ -77,7 +77,10 @@ const _mock = {
       `https://api-dev-minimal-v4.vercel.app/assets/images/products/product_${index + 1}.jpg`,
     avatar: (index: number) =>
       `https://api-dev-minimal-v4.vercel.app/assets/images/avatars/avatar_${index + 1}.jpg`,
-  },
+    sponsor: (index: number) =>
+      `/assets/shoe/shoes_${index + 1}.jpg`,
+  
+    },
   
 };
 

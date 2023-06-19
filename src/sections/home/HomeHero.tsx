@@ -4,9 +4,21 @@ import { useEffect, useState } from 'react';
 import NextLink from 'next/link';
 // @mui
 import { styled, alpha } from '@mui/material/styles';
-import { Button, Box, Container, Typography, Stack, Grid, IconButton } from '@mui/material';
+import {
+  Button,
+  Box,
+  Container,
+  Typography,
+  Stack,
+  Grid,
+  IconButton,
+  Card,
+  CardContent,
+  CardHeader,
+} from '@mui/material';
 // routes
-import { _games, _socials, _tournamentFeatured } from 'src/_mock/arrays';
+import _mock from 'src/_mock/_mock';
+import { _socials } from 'src/_mock/arrays';
 import { PATH_DASHBOARD } from '../../routes/paths';
 // utils
 import { textGradient, bgGradient } from '../../utils/cssStyles';
@@ -15,8 +27,8 @@ import { secondaryFont } from '../../theme/typography';
 // components
 import Iconify from '../../components/iconify';
 import { MotionContainer, varFade } from '../../components/animate';
-import TournamentFeatured from './TournamentFeatured';
-import Games from './Games';
+import { CarouselAnimation } from '../_examples/extra/carousel';
+import SponsorCarousel from '../_examples/extra/carousel/SponsorCarousel';
 
 // ----------------------------------------------------------------------
 
@@ -87,11 +99,11 @@ export default function HomeHero() {
       <StyledRoot sx={{ ...(hide && { opacity: 0 }) }}>
         <Container component={MotionContainer}>
           <Grid container spacing={3}>
-            <Grid item xs={12} md={4}>
+            <Grid item xs={12} md={5}>
               <Description />
             </Grid>
 
-            <Grid item xs={12} md={8}>
+            <Grid item xs={12} md={7}>
               <Content />
             </Grid>
           </Grid>
@@ -110,7 +122,9 @@ function Description() {
     <StyledDescription>
       <m.div variants={varFade().in}>
         <Typography variant="h2">
-          Elevate your <br /> gaming with
+          Experience seamless
+          <br />
+          shopping with{' '}
         </Typography>
       </m.div>
 
@@ -124,16 +138,10 @@ function Description() {
             repeat: Infinity,
           }}
         >
-          ESAN
+          DMERCE
         </StyledGradientText>
       </m.div>
-      <m.div variants={varFade().in}>
-        <Typography variant="body2">
-          Experience the ultimate gaming community. Join now for thrilling games, competitions, and
-          a vibrant community of fellow gamers!
-        </Typography>
-      </m.div>
-      <br />
+
       <m.div variants={varFade().in}>
         <Stack spacing={1.5} direction={{ xs: 'column-reverse', sm: 'row' }} sx={{ mb: 5 }}>
           <Stack alignItems="center" spacing={2}>
@@ -151,7 +159,7 @@ function Description() {
                 },
               }}
             >
-              Browse Tournaments
+              Explore Now!{' '}
             </Button>
           </Stack>
 
@@ -166,7 +174,7 @@ function Description() {
           </Button>
         </Stack>
       </m.div>
-      <Stack spacing={3} sx={{ textAlign: 'left', opacity: 0.48 }}>
+      <Stack spacing={1} sx={{ textAlign: 'left', opacity: 0.48 }}>
         <m.div variants={varFade().in}>
           <Typography variant="overline">Connect with us!</Typography>
         </m.div>
@@ -186,14 +194,6 @@ function Description() {
             </IconButton>
           ))}
         </Stack>
-
-        {/* <Stack spacing={2} direction="row" justifyContent="center" alignItems="center">
-          {['facebook','instagram',  'twitter', 'youtube',].map((platform) => (
-            <m.div key={platform} variants={varFade().in}>
-              <SvgColor src={`/assets/icons/platforms/ic_${platform}.svg`} />
-            </m.div>
-          ))}
-        </Stack> */}
       </Stack>
     </StyledDescription>
   );
@@ -202,6 +202,13 @@ function Description() {
 // ----------------------------------------------------------------------
 
 function Content() {
+  const _carouselsExample = [...Array(5)].map((_, index) => ({
+    id: _mock.id(index),
+    title: _mock.text.title(index),
+    sponsor: _mock.image.sponsor(index),
+    description: _mock.text.description(index),
+  }));
+
   return (
     <Grid
       container
@@ -211,10 +218,9 @@ function Content() {
       }}
     >
       <Grid item xs={12}>
-        <TournamentFeatured list={_tournamentFeatured} />
-      </Grid>
-      <Grid item xs={12}>
-        <Games title="Top Games" list={_games.slice(0, 4)} />
+        <Box sx={{ pt: 5 }}>
+          <SponsorCarousel data={_carouselsExample} />
+        </Box>
       </Grid>
     </Grid>
   );

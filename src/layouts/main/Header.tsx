@@ -21,6 +21,7 @@ import navConfig from './nav/config-navigation';
 import NavDesktop from './nav/desktop';
 import AccountPopover from '../dashboard/header/AccountPopover';
 import { useAuthContext } from '../../auth/useAuthContext';
+import { BlogPostsSearch } from 'src/sections/@dashboard/blog';
 
 // ----------------------------------------------------------------------
 
@@ -63,11 +64,7 @@ export default function Header() {
 
           {isDesktop && <NavDesktop isOffset={isOffset} data={navConfig} />}
 
-          {!isAuthenticated && (
-            <Button variant="contained" href={PATH_AUTH.login}>
-              Log In
-            </Button>
-          )}
+          <BlogPostsSearch />
 
           {isAuthenticated && <AccountPopover />}
           <IconButton

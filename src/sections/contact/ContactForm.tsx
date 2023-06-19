@@ -1,6 +1,6 @@
 import { m } from 'framer-motion';
 // @mui
-import { Button, Typography, TextField, Stack } from '@mui/material';
+import { Button, Typography, TextField, Stack, Box } from '@mui/material';
 // components
 import { MotionViewport, varFade } from '../../components/animate';
 
@@ -9,12 +9,7 @@ import { MotionViewport, varFade } from '../../components/animate';
 export default function ContactForm() {
   return (
     <Stack component={MotionViewport} spacing={5}>
-      <m.div variants={varFade().inUp}>
-        <Typography variant="h3">
-          Feel free to contact us. <br />
-          We&apos;ll be glad to hear from you.
-        </Typography>
-      </m.div>
+    
 
       <Stack spacing={3}>
         <m.div variants={varFade().inUp}>
@@ -26,7 +21,7 @@ export default function ContactForm() {
         </m.div>
 
         <m.div variants={varFade().inUp}>
-          <TextField fullWidth label="Subject" />
+          <TextField fullWidth label="Contact Number" />
         </m.div>
 
         <m.div variants={varFade().inUp}>
@@ -35,9 +30,12 @@ export default function ContactForm() {
       </Stack>
 
       <m.div variants={varFade().inUp}>
-        <Button size="large" variant="contained">
+        <Box sx={{textAlign:'center'}}>
+
+        <Button size="large" variant="contained" >
           Submit Now
         </Button>
+        </Box>
       </m.div>
     </Stack>
   );

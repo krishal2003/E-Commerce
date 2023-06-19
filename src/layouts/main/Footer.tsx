@@ -16,10 +16,8 @@ const LINKS = [
   {
     headline: 'Quick Links',
     children: [
+      { name: 'Shop', href: PATH_PAGE.shop },
       { name: 'About us', href: PATH_PAGE.about },
-      { name: 'Contact us', href: PATH_PAGE.contact },
-      { name: 'FAQs', href: PATH_PAGE.faqs },
-      { name: 'Blogs', href: PATH_PAGE.blog.root },
     ],
   },
   {
@@ -33,8 +31,8 @@ const LINKS = [
   {
     headline: 'Contact',
     children: [
-      { name: 'support@esan.com', href: '#' },
-      { name: 'Bharatpur, Chitwan', href: '#' },
+      { name: 'dmerce@gmail.com', href: '#' },
+      { name: 'Kalanki, Kathmandu', href: '#' },
     ],
   },
 ];
@@ -72,7 +70,8 @@ export default function Footer() {
 
           <Grid item xs={8} md={3}>
             <Typography variant="body2" sx={{ pr: { md: 5 } }}>
-              Ready to play? Enter the virtual realm of ESAN and unleash your gaming powers!
+              Discover, Shop, and Experience the Ultimate Online Retail Adventure with Confidence
+              and Convenience!
             </Typography>
 
             <Stack
@@ -133,18 +132,9 @@ export default function Footer() {
             textAlign: { xs: 'center', md: 'center' },
           }}
         >
-          © ESAN {new Date().getFullYear()}
+          © Dmerce {new Date().getFullYear()}
         </Typography>
-        <Typography
-          variant="button"
-          component="div"
-          sx={{
-            pb: 5,
-            textAlign: { xs: 'center', md: 'center' },
-          }}
-        >
-          Powered by Baliyo Ventures
-        </Typography>
+        
       </Container>
     </Box>
   );

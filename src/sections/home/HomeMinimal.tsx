@@ -11,19 +11,21 @@ import { MotionViewport, varFade } from '../../components/animate';
 const CARDS = [
   {
     icon: ' /assets/icons/home/ic_make_brand.svg',
-    title: 'Community',
-    description: 'We have an active and engaged community of gamers, providing opportunities for socializing, making friends, and enjoying multiplayer games together.',
+    title: 'Services',
+    description:
+      'Exceptional customer support, prompt assistance, and personalized care for utmost satisfaction.',
   },
   {
     icon: ' /assets/icons/home/ic_design.svg',
-    title: 'Content',
+    title: 'Variety',
     description:
-      "Our gaming website offers a diverse selection of games to cater to different interests and preferences, ensuring there's something for everyone.",
+      ' Extensive range of products for diverse preferences, ensuring a fulfilling shopping experience.',
   },
   {
     icon: ' /assets/icons/home/ic_development.svg',
     title: 'Security',
-    description: "We prioritize the security of our users' accounts and personal information, implementing robust security measures to protect against unauthorized access and ensuring a safe gaming environment.",
+    description:
+      'Robust measures protect customer data, ensuring a safe and trustworthy shopping environment. ',
   },
 ];
 
@@ -64,7 +66,7 @@ export default function HomeMinimal() {
 
           <m.div variants={varFade().inDown}>
             <Typography variant="h2">
-              Why choose us? <br /> 
+              Why choose us? <br />
             </Typography>
           </m.div>
         </Stack>
