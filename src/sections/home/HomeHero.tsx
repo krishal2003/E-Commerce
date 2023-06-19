@@ -12,9 +12,6 @@ import {
   Stack,
   Grid,
   IconButton,
-  Card,
-  CardContent,
-  CardHeader,
 } from '@mui/material';
 // routes
 import _mock from 'src/_mock/_mock';
@@ -27,7 +24,6 @@ import { secondaryFont } from '../../theme/typography';
 // components
 import Iconify from '../../components/iconify';
 import { MotionContainer, varFade } from '../../components/animate';
-import { CarouselAnimation } from '../_examples/extra/carousel';
 import SponsorCarousel from '../_examples/extra/carousel/SponsorCarousel';
 
 // ----------------------------------------------------------------------
