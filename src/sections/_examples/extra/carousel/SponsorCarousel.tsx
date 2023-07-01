@@ -9,6 +9,7 @@ import { bgGradient } from '../../../../utils/cssStyles';
 import Image from '../../../../components/image';
 import { MotionContainer, varFade } from '../../../../components/animate';
 import Carousel, { CarouselArrowIndex } from '../../../../components/carousel';
+import Link from 'next/link';
 
 // ----------------------------------------------------------------------
 
@@ -17,7 +18,7 @@ type Props = {
     id: string;
     title: string;
     sponsor: string;
-    description: string;
+    link: string;
   }[];
 };
 
@@ -70,7 +71,7 @@ export default function CarouselAnimation({ data }: Props) {
 type CarouselItemProps = {
   item: {
     title: string;
-    description: string;
+    link: string;
     sponsor: string;
   };
   isActive: boolean;
@@ -79,7 +80,7 @@ type CarouselItemProps = {
 function CarouselItem({ item, isActive }: CarouselItemProps) {
   const theme = useTheme();
 
-  const { sponsor, title } = item;
+  const { sponsor, title,link } = item;
 
   return (
     <Paper sx={{ position: 'relative' }}>
@@ -118,11 +119,11 @@ function CarouselItem({ item, isActive }: CarouselItemProps) {
           </Typography>
         </m.div>
 
-        <m.div variants={varFade().inRight}>
-          <Button variant="contained" sx={{ mt: 0 }}>
-            View More
-          </Button>
-        </m.div>
+          <m.div variants={varFade().inRight}>
+            <Button variant="contained" sx={{ mt: 0 }}>
+              View More
+            </Button>
+          </m.div>
       </CardContent>
     </Paper>
   );

@@ -17,12 +17,12 @@ type Props = {
 };
 
 export default function ShopCard({ user }: Props) {
-  const { productName, cover, amount } = user;
+  const { productName, shoeimage, amount } = user;
 
   return (
     <Card sx={{ textAlign: 'center' }}>
       <Box sx={{ position: 'relative' }}>
-        <Image src={cover} alt={cover} ratio="4/3" />
+        <Image src={shoeimage} alt={productName} ratio="4/3" />
       </Box>
 
       <Typography variant="subtitle1" sx={{ mt: 2, mb: 1 }}>

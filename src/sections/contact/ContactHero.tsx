@@ -10,9 +10,9 @@ import { TextAnimate, MotionContainer, varFade } from '../../components/animate'
 const CONTACTS = [
   {
     country: 'Nepal',
-    email: 'support@esan.com',
-    address: 'Bharatpur,Chitwan',        
-    phoneNumber: ' 9841542865',
+    email: 'dmerce@gmail.com',
+    address: 'Kalanki,Kathmandu',        
+    phoneNumber: ' 9840030835',
   },
   {
     country: '',

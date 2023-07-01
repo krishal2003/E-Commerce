@@ -1,8 +1,12 @@
 // ----------------------------------------------------------------------
 
 export const productName = [
-  'Nike Terminator High ',
+  'Nike Air Force',
+  'Vans Old Skool',
+  'Converse High Top',
+  'Nike Jordan 1 Travis Scott',
   'Adidas Samba',
+  'Nike Terminator High ',
   'Jordan 2 Retro',
   'Nike Air Penny 2 ',
   'Nike General Purpose Shoes',
@@ -12,15 +16,16 @@ export const productName = [
   'Vans OG Style',
   'Louis Vuitton Monogram Air Force 1',
   'Nike Air Zoom',
-  'ADIDAS STAN SMITH',
+  'Adidas Stan Smith',
   'Nike Air Griffey Max 1',
-  'ADIDAS ORIGINALS SL80',
-  'NEW BALANCE M1300JP',
-  'CONVERSE CHUCK TAYLOR HI-TOP',
-  'NIKE AIR MAX 1 JEWEL',
+  'Adidas Orignials SL80',
+  'New Balance M1300JP',
+  'Converse Chuck Taylor High Top',
+  'Nike Air Max 1 Jewel ',
   'Nike LeBron 7',
   'Nike Roshe',
   'Air Jordan 1 ',
   'Air Jordan 8',
+  'Adidas Samba',
 ];
   

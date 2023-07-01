@@ -95,6 +95,7 @@ export type IUserCard = {
   role: string;
   amount:string;
   productName:string;
+  shoeimage:string;
 };
 
 export type ITournamentCard = {

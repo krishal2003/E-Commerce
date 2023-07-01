@@ -32,7 +32,8 @@ const LINKS = [
   {
     headline: 'Contact',
     children: [
-      { name: 'dmerce@gmail.com', href: '#' },
+      { name: '+977 9840030835', href: 'tel:9840030835' },
+      { name: 'dmerce@gmail.com', href: 'mailto:dmerce@gmail.com' },
       { name: 'Kalanki, Kathmandu', href: '#' },
     ],
   },
