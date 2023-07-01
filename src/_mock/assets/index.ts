@@ -8,4 +8,5 @@ export * from './number';
 export * from './address';
 export * from './boolean';
 export * from './company';
+export * from './link';
 export * from './phoneNumber';

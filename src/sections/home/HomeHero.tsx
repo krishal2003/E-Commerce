@@ -203,6 +203,7 @@ function Content() {
     title: _mock.text.title(index),
     sponsor: _mock.image.sponsor(index),
     description: _mock.text.description(index),
+    link: _mock.link(index),
   }));
 
   return (
