@@ -1,18 +1,14 @@
 import { m } from 'framer-motion';
-import { useCallback, useEffect, useRef, useState } from 'react';
+import { useRef } from 'react';
 // @mui
-import { useTheme, alpha } from '@mui/material/styles';
-import { Box, Stack, Card, Button, Container, Typography, Grid } from '@mui/material';
+import { useTheme } from '@mui/material/styles';
+import { Box, Card, Container, Typography } from '@mui/material';
 // _mock_
 import { _carouselsMembers } from '../../_mock/arrays';
 // components
 import Image from '../../components/image';
-import Iconify from '../../components/iconify';
-import Carousel, { CarouselArrows } from '../../components/carousel';
+import Carousel from '../../components/carousel';
 import { MotionViewport, varFade } from '../../components/animate';
-import axiosInstance2, { BASE_IMAGE_PATH } from 'src/utils/axios2';
-import { ITeam } from 'src/@types/team';
-import Link from 'next/link';
 
 // ----------------------------------------------------------------------
 
