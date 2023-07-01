@@ -21,7 +21,9 @@ export const PATH_AUTH = {
 };
 
 export const PATH_PAGE = {
+  home:'/',
   comingSoon: '/coming-soon',
+  cart: '/your-cart',
   shop: '/shop',
   blog: {
     root: '/blog',

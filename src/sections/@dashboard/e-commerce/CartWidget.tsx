@@ -17,7 +17,7 @@ const StyledRoot = styled('div')(({ theme }) => ({
   cursor: 'pointer',
   position: 'fixed',
   alignItems: 'center',
-  top: theme.spacing(16),
+  top: theme.spacing(11),
   height: theme.spacing(5),
   paddingLeft: theme.spacing(2),
   paddingRight: theme.spacing(2),
@@ -39,7 +39,7 @@ type Props = {
 
 export default function CartWidget({ totalItems }: Props) {
   return (
-    <Link component={NextLink} href={PATH_DASHBOARD.eCommerce.checkout}>
+    <Link component={NextLink} href='your-cart'>
       <StyledRoot>
         <Badge showZero badgeContent={totalItems} color="error" max={99}>
           <Iconify icon="eva:shopping-cart-fill" width={24} />

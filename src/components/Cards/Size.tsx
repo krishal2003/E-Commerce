@@ -34,17 +34,17 @@ export default function Size() {
           label="Size"
           onChange={handleChange}
         >
-          <MenuItem value={10}>36</MenuItem>
-          <MenuItem value={10}>37</MenuItem>
-          <MenuItem value={10}>38</MenuItem>
-          <MenuItem value={10}>39</MenuItem>
-          <MenuItem value={10}>40</MenuItem>
-          <MenuItem value={10}>41</MenuItem>
-          <MenuItem value={10}>42</MenuItem>
-          <MenuItem value={10}>43</MenuItem>
-          <MenuItem value={10}>44</MenuItem>
-          <MenuItem value={10}>45</MenuItem>
-          <MenuItem value={10}>46</MenuItem>
+          <MenuItem value={36}>36</MenuItem>
+          <MenuItem value={37}>37</MenuItem>
+          <MenuItem value={38}>38</MenuItem>
+          <MenuItem value={39}>39</MenuItem>
+          <MenuItem value={40}>40</MenuItem>
+          <MenuItem value={41}>41</MenuItem>
+          <MenuItem value={42}>42</MenuItem>
+          <MenuItem value={43}>43</MenuItem>
+          <MenuItem value={44}>44</MenuItem>
+          <MenuItem value={45}>45</MenuItem>
+          <MenuItem value={46}>46</MenuItem>
         </Select>
       </FormControl>
     </div>

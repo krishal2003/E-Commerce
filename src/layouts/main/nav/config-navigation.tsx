@@ -14,18 +14,28 @@ const navConfig = [
   {
     title: 'Shop',
     path: PATH_PAGE.shop,
-    icon: <Iconify icon="eva:archive-fill" />,
+    icon: <Iconify icon="material-symbols:shop-sharp" />,
+  },
+  {
+    title: 'Your Cart',
+    path: PATH_PAGE.cart,
+    icon: <Iconify icon="mdi:cart" />,
   },
   {
     title: 'About Us',
     path: PATH_PAGE.about,
-    icon: <Iconify icon="eva:archive-fill" />,
+    icon: <Iconify icon="mdi:about" />,
   },
 
   {
     title: 'Resources',
     path: '#',
-    icon: <Iconify icon="eva:archive-fill" />,
+    icon: (
+      <Iconify
+        icon="grommet-icons:resources
+"
+      />
+    ),
     children: [
       {
         subheader: 'Articles',

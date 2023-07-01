@@ -34,12 +34,12 @@ export default function Company() {
           label="Company"
           onChange={handleChange}
         >
-          <MenuItem value={10}>Nike</MenuItem>
-          <MenuItem value={10}>Adidas</MenuItem>
-          <MenuItem value={10}>Puma</MenuItem>
-          <MenuItem value={10}>New Balance</MenuItem>
-          <MenuItem value={10}>Vans</MenuItem>
-          <MenuItem value={10}>Converse</MenuItem>
+          <MenuItem value={11}>Nike</MenuItem>
+          <MenuItem value={12}>Adidas</MenuItem>
+          <MenuItem value={13}>Puma</MenuItem>
+          <MenuItem value={14}>New Balance</MenuItem>
+          <MenuItem value={15}>Vans</MenuItem>
+          <MenuItem value={16}>Converse</MenuItem>
         </Select>
       </FormControl>
     </div>

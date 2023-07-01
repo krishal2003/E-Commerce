@@ -34,14 +34,14 @@ export default function Colors() {
           label="Colors"
           onChange={handleChange}
         >
-          <MenuItem value={10}>Red</MenuItem>
-          <MenuItem value={10}>Black</MenuItem>
+          <MenuItem value={12}>Red</MenuItem>
+          <MenuItem value={11}>Black</MenuItem>
           <MenuItem value={10}>Orange</MenuItem>
-          <MenuItem value={10}>Blue</MenuItem>
-          <MenuItem value={10}>Green</MenuItem>
-          <MenuItem value={10}>Pink</MenuItem>
-          <MenuItem value={10}>Yellow</MenuItem>
-          <MenuItem value={10}>Brown</MenuItem>
+          <MenuItem value={13}>Blue</MenuItem>
+          <MenuItem value={14}>Green</MenuItem>
+          <MenuItem value={15}>Pink</MenuItem>
+          <MenuItem value={16}>Yellow</MenuItem>
+          <MenuItem value={17}>Brown</MenuItem>
         </Select>
       </FormControl>
     </div>

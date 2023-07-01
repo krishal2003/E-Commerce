@@ -16,6 +16,7 @@ const LINKS = [
   {
     headline: 'Quick Links',
     children: [
+      { name: 'Home', href: PATH_PAGE.home },
       { name: 'Shop', href: PATH_PAGE.shop },
       { name: 'About us', href: PATH_PAGE.about },
     ],

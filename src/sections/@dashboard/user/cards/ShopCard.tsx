@@ -1,14 +1,14 @@
 // @mui
-import { Box, Card, Typography } from '@mui/material';
+import { Box, Button, Card, Typography } from '@mui/material';
 // utils
 // @types
 import { IUserCard } from '../../../../@types/user';
 // _mock
 // components
 import Image from '../../../../components/image';
+import Link from 'next/link';
 
 // ----------------------------------------------------------------------
-
 
 // ----------------------------------------------------------------------
 
@@ -22,7 +22,6 @@ export default function ShopCard({ user }: Props) {
   return (
     <Card sx={{ textAlign: 'center' }}>
       <Box sx={{ position: 'relative' }}>
-
         <Image src={cover} alt={cover} ratio="4/3" />
       </Box>
 
@@ -30,11 +29,17 @@ export default function ShopCard({ user }: Props) {
         {productName}
       </Typography>
 
-      <Typography variant="body2" sx={{ color: 'text.secondary',mb: 5 }}>
+      <Typography variant="body2" sx={{ color: 'text.secondary', mb: 5 }}>
         Rs. {amount}
       </Typography>
-
-
+      <Box sx={{ mt: -3, pb: 2 }}>
+        <Link href={`/shop/${productName}`}>
+          <Button variant="contained">Buy</Button>
+        </Link>
+        <Link href="/coming-soon">
+          <Button>Add to Cart</Button>
+        </Link>
+      </Box>
     </Card>
   );
 }
