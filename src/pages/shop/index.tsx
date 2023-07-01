@@ -1,16 +1,18 @@
 import { Container } from "@mui/material";
 import React from "react";
-import MainLayout from "src/layouts/main/MainLayout";
+import DashboardLayout from "src/layouts/dashboard";
+import ShopLayout from "src/layouts/main/ShopLayout";
 
 
-Shop.getLayout = (page: React.ReactElement) => <MainLayout>{page}</MainLayout>;
+Shop.getLayout = (page: React.ReactElement) => <DashboardLayout>{page}</DashboardLayout>;
+
 
 function Shop() {
     
   return (
     <Container>
-        <h1>Shop</h1>
-      </Container>
+      <ShopLayout/>
+    </Container>
   );
 }
 

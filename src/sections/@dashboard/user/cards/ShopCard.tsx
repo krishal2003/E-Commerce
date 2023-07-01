@@ -1,25 +1,14 @@
 // @mui
-import { alpha, styled } from '@mui/material/styles';
-import { Box, Card, Avatar, Divider, Typography, Stack, IconButton } from '@mui/material';
+import { Box, Card, Typography } from '@mui/material';
 // utils
 // @types
 import { IUserCard } from '../../../../@types/user';
 // _mock
-import { _socials } from '../../../../_mock/arrays';
 // components
 import Image from '../../../../components/image';
 
 // ----------------------------------------------------------------------
 
-const StyledOverlay = styled('div')(({ theme }) => ({
-  top: 0,
-  left: 0,
-  zIndex: 8,
-  width: '100%',
-  height: '100%',
-  position: 'absolute',
-  backgroundColor: alpha(theme.palette.grey[900], 0.64),
-}));
 
 // ----------------------------------------------------------------------
 
@@ -28,7 +17,7 @@ type Props = {
 };
 
 export default function ShopCard({ user }: Props) {
-  const { productName, cover, amount, follower, totalPosts, avatarUrl, following } = user;
+  const { productName, cover, amount } = user;
 
   return (
     <Card sx={{ textAlign: 'center' }}>
@@ -42,7 +31,7 @@ export default function ShopCard({ user }: Props) {
       </Typography>
 
       <Typography variant="body2" sx={{ color: 'text.secondary',mb: 5 }}>
-        {amount}
+        Rs. {amount}
       </Typography>
 
 

@@ -1,6 +1,6 @@
 // @mui
 import { useTheme } from '@mui/material/styles';
-import { Stack, AppBar, Toolbar, IconButton } from '@mui/material';
+import { AppBar, Toolbar } from '@mui/material';
 // utils
 import { bgBlur } from '../../../utils/cssStyles';
 // hooks
@@ -9,14 +9,8 @@ import useResponsive from '../../../hooks/useResponsive';
 // config
 import { HEADER, NAV } from '../../../config-global';
 // components
-import Logo from '../../../components/logo';
-import Iconify from '../../../components/iconify';
 import { useSettingsContext } from '../../../components/settings';
 //
-import Searchbar from './Searchbar';
-import AccountPopover from './AccountPopover';
-import NotificationsPopover from './NotificationsPopover';
-import SvgColor from 'src/components/svg-color/SvgColor';
 
 // ----------------------------------------------------------------------
 
@@ -24,10 +18,10 @@ type Props = {
   onOpenNav?: VoidFunction;
 };
 
-export default function Header({ onOpenNav }: Props) {
+export default function Header() {
   const theme = useTheme();
 
-  const { themeLayout, themeMode, onToggleMode } = useSettingsContext();
+  const { themeLayout } = useSettingsContext();
 
   const isNavHorizontal = themeLayout === 'horizontal';
 
@@ -38,37 +32,7 @@ export default function Header({ onOpenNav }: Props) {
   const isOffset = useOffSetTop(HEADER.H_DASHBOARD_DESKTOP) && !isNavHorizontal;
 
   const renderContent = (
-    <>
-      {isDesktop && isNavHorizontal && <Logo sx={{ mr: 2.5 }} />}
-
-      {!isDesktop && (
-        <IconButton onClick={onOpenNav} sx={{ mr: 1, color: 'text.primary' }}>
-          <Iconify icon="eva:menu-2-fill" />
-        </IconButton>
-      )}
-
-      <Searchbar />
-
-      <Stack
-        flexGrow={1}
-        direction="row"
-        alignItems="center"
-        justifyContent="flex-end"
-        spacing={{ xs: 0.5, sm: 1.5 }}
-      >
-        <NotificationsPopover />
-        <AccountPopover />
-        <IconButton
-          color={themeMode === 'dark' ? 'warning' : 'default'}
-          onClick={onToggleMode}
-          sx={{ ml: 1 }}
-        >
-          <SvgColor
-            src={`/assets/icons/setting/ic_${themeMode === 'light' ? 'moon' : 'sun'}.svg`}
-          />
-        </IconButton>
-      </Stack>
-    </>
+<></>
   );
 
   return (

@@ -10,6 +10,7 @@ import { NavSectionMini } from '../../../components/nav-section';
 //
 import navConfig from './config-navigation';
 import NavToggleButton from './NavToggleButton';
+import Link from 'next/link';
 
 // ----------------------------------------------------------------------
 
@@ -24,7 +25,7 @@ export default function NavMini() {
     >
       <NavToggleButton
         sx={{
-          top: 22,
+          top: 110,
           left: NAV.W_DASHBOARD_MINI - 12,
         }}
       />
@@ -39,7 +40,12 @@ export default function NavMini() {
           ...hideScrollbarX,
         }}
       >
-        <Logo sx={{ mx: 'auto', my: 2 }} />
+        <Box sx={{pt:8}}>
+
+        <Link href="/">
+          <Logo sx={{ mx: 'auto', my: 2 }} />
+        </Link>
+        </Box>
 
         <NavSectionMini data={navConfig} />
       </Stack>

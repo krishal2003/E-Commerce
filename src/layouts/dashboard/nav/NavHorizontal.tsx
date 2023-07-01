@@ -34,7 +34,6 @@ function NavHorizontal() {
       >
         <NavSectionHorizontal data={navConfig} />
       </Toolbar>
-
       <Shadow />
     </AppBar>
   );

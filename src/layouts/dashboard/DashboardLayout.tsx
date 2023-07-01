@@ -45,7 +45,6 @@ export default function DashboardLayout({ children }: Props) {
     if (isNavHorizontal) {
       return (
         <>
-          <Header onOpenNav={handleOpen} />
 
           {isDesktop ? <NavHorizontal /> : renderNavVertical}
 
@@ -56,10 +55,7 @@ export default function DashboardLayout({ children }: Props) {
 
     if (isNavMini) {
       return (
-        <>
-          <Header onOpenNav={handleOpen} />
-
-          <Box
+        <Box
             sx={{
               display: { lg: 'flex' },
               minHeight: { lg: 1 },
@@ -69,15 +65,11 @@ export default function DashboardLayout({ children }: Props) {
 
             <Main>{children}</Main>
           </Box>
-        </>
       );
     }
 
     return (
-      <>
-        <Header onOpenNav={handleOpen} />
-
-        <Box
+      <Box
           sx={{
             display: { lg: 'flex' },
             minHeight: { lg: 1 },
@@ -87,9 +79,8 @@ export default function DashboardLayout({ children }: Props) {
 
           <Main>{children}</Main>
         </Box>
-      </>
     );
   };
 
-  return <AuthGuard> {renderContent()} </AuthGuard>;
+  return <Box> {renderContent()} </Box>;
 }

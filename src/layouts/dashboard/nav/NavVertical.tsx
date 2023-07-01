@@ -2,7 +2,7 @@ import { useEffect } from 'react';
 // next
 import { useRouter } from 'next/router';
 // @mui
-import { Box, Stack, Drawer } from '@mui/material';
+import { Box, Stack, Drawer, Typography } from '@mui/material';
 // hooks
 import useResponsive from '../../../hooks/useResponsive';
 // config
@@ -10,12 +10,14 @@ import { NAV } from '../../../config-global';
 // components
 import Logo from '../../../components/logo';
 import Scrollbar from '../../../components/scrollbar';
-import { NavSectionVertical } from '../../../components/nav-section';
 //
-import navConfig from './config-navigation';
-import NavDocs from './NavDocs';
-import NavAccount from './NavAccount';
 import NavToggleButton from './NavToggleButton';
+import Size from 'src/components/Cards/Size';
+import Link from 'next/link';
+import Colors from 'src/components/Cards/Colors';
+import Company from 'src/components/Cards/Company';
+import Price from 'src/components/Cards/Price';
+import Submit from 'src/components/Cards/Submit';
 
 // ----------------------------------------------------------------------
 
@@ -56,16 +58,29 @@ export default function NavVertical({ openNav, onCloseNav }: Props) {
           flexShrink: 0,
         }}
       >
-        <Logo />
-
-        <NavAccount />
+        <Box sx={{ pt: 2, pb: 3 }}>
+          <Typography sx={{ textAlign: 'center', color: '#FF3030' }} variant="h4">
+            Filter your items
+          </Typography>
+        </Box>
       </Stack>
 
-      <NavSectionVertical data={navConfig} />
-
+      <Box
+        display="flex"
+        justifyContent="center"
+        alignItems="center"
+        flexDirection="column"
+        gap={5}
+      >
+        <Size />
+        <Colors />
+        <Company />
+        <Price />
+        <Box sx={{ mt: -3 }}>
+          <Submit />
+        </Box>
+      </Box>
       <Box sx={{ flexGrow: 1 }} />
-
-      <NavDocs />
     </Scrollbar>
   );
 
@@ -77,7 +92,11 @@ export default function NavVertical({ openNav, onCloseNav }: Props) {
         width: { lg: NAV.W_DASHBOARD },
       }}
     >
-      <NavToggleButton />
+      <NavToggleButton
+        sx={{
+          top: 110,
+        }}
+      />
 
       {isDesktop ? (
         <Drawer

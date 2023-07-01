@@ -16,7 +16,6 @@ import Iconify from '../../../components/iconify';
 import MenuPopover from '../../../components/menu-popover';
 import ConfirmDialog from '../../../components/confirm-dialog';
 import { ITeam } from 'src/@types/team';
-import { SocialsDisplay } from 'src/sections/about/AboutTeam';
 
 // ----------------------------------------------------------------------
 
@@ -31,12 +30,7 @@ export default function TeamTableRow({ row, selected, onDeleteRow }: Props) {
     name,
     post,
     image,
-    discord_link,
-    facebook_link,
-    instagram_link,
-    linkedin_link,
-    twitch_link,
-    twitter_link,
+   
   } = row;
 
   const [openConfirm, setOpenConfirm] = useState(false);
@@ -71,16 +65,7 @@ export default function TeamTableRow({ row, selected, onDeleteRow }: Props) {
         </TableCell>
 
         <TableCell align="left">{post}</TableCell>
-        <TableCell align="center">
-          {SocialsDisplay(
-            facebook_link,
-            instagram_link,
-            twitter_link,
-            discord_link,
-            twitch_link,
-            linkedin_link
-          )}
-        </TableCell>
+      
 
         <TableCell align="right">
           <IconButton color={openPopover ? 'inherit' : 'default'} onClick={handleOpenPopover}>

@@ -9,7 +9,6 @@ import ScrollProgress from '../components/scroll-progress';
 // sections
 import { HomeHero, HomeMinimal, RecentPosts } from '../sections/home';
 import { ContactForm } from 'src/sections/contact';
-import Shop from './shop';
 import ShopHome from './components/shopHome';
 
 // ----------------------------------------------------------------------

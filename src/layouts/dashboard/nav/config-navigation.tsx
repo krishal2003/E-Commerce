@@ -1,5 +1,5 @@
 // routes
-import { PATH_DASHBOARD } from '../../../routes/paths';
+import { PATH_DASHBOARD, PATH_PAGE } from '../../../routes/paths';
 // components
 // import Label from '../../../components/label';
 // import Iconify from '../../../components/iconify';
@@ -21,6 +21,7 @@ const icon = (name: string) => (
 
 const ICONS = {
   blog: icon('ic_blog'),
+  filter: icon('ic_filter'),
   cart: icon('ic_cart'),
   chat: icon('ic_chat'),
   mail: icon('ic_mail'),
@@ -51,16 +52,7 @@ const navConfig = [
   // ----------------------------------------------------------------------
   {
     subheader: 'general',
-    items: [
-      { title: 'app', path: PATH_DASHBOARD.general.app, icon: ICONS.dashboard },
-
-      {
-        title: 'Organizational Chart',
-        path: PATH_DASHBOARD.organization.chart.list,
-        icon: ICONS.blog,
-        roles: [UserRole.Organization],
-      },
-    ],
+    items: [{ title: 'Filter', path: PATH_PAGE.shop, icon: ICONS.filter }],
   },
 
   // MANAGEMENT

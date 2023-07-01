@@ -96,9 +96,33 @@ export const _userCards = [...Array(6)].map((_, index) => ({
   role: _mock.role(index),
   amount: _mock.amount(index),
   productName: _mock.productName(index),
+}));
+
+export const _featuredCards = [...Array(6)].map((_, index) => ({
+  id: _mock.id(index),
+  avatarUrl: _mock.image.avatar(index),
+  cover: _mock.image.cover(index),
+  name: _mock.name.fullName(index),
+  follower: randomNumberRange(999, 99999),
+  following: randomNumberRange(999, 99999),
+  totalPosts: randomNumberRange(999, 99999),
+  role: _mock.role(index),
+  amount: _mock.amount(index),
+  productName: _mock.productName(index),
+}));
 
 
-
+export const _shopCards = [...Array(18)].map((_, index) => ({
+  id: _mock.id(index),
+  avatarUrl: _mock.image.avatar(index),
+  cover: _mock.image.cover(index),
+  name: _mock.name.fullName(index),
+  follower: randomNumberRange(999, 99999),
+  following: randomNumberRange(999, 99999),
+  totalPosts: randomNumberRange(999, 99999),
+  role: _mock.role(index),
+  amount: _mock.amount(index),
+  productName: _mock.productName(index),
 }));
 
 export const _userPayment = [...Array(2)].map((_, index) => ({
