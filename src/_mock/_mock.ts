@@ -27,7 +27,9 @@ import {
   team2score,
   team1score,
   heading,
+  amount,
 } from './assets';
+import { productName } from './assets/productName';
 
 // ----------------------------------------------------------------------
 
@@ -46,6 +48,8 @@ const _mock = {
   rating: (index: number) => rating[index],
   Testimonialdescription: (index: number) => Testimonialdescription[index],
   role: (index: number) => role[index],
+  amount: (index: number) => amount[index],
+  productName: (index: number) => productName[index],
   company: (index: number) => company[index],
   address: {
     fullAddress: (index: number) => fullAddress[index],

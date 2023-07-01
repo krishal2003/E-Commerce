@@ -1,5 +1,7 @@
 export * from './name';
 export * from './role';
+export * from './amount';
+export * from './productName';
 export * from './text';
 export * from './email';
 export * from './number';

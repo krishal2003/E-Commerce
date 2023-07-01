@@ -1,7 +1,7 @@
 import { Box, Container } from '@mui/material'
 import React from 'react'
 import { _userCards } from 'src/_mock/arrays'
-import { UserCard } from 'src/sections/@dashboard/user/cards'
+import ShopCard from 'src/sections/@dashboard/user/cards/shopCard'
 
 function ShopHome() {
   return (
@@ -18,7 +18,7 @@ function ShopHome() {
           }}
         >
          {_userCards.map((user) => (
-            <UserCard key={user.id} user={user} />
+            <ShopCard key={user.id} user={user} />
           ))}
       </Box>
       </Container>

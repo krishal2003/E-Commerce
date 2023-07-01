@@ -94,6 +94,11 @@ export const _userCards = [...Array(6)].map((_, index) => ({
   following: randomNumberRange(999, 99999),
   totalPosts: randomNumberRange(999, 99999),
   role: _mock.role(index),
+  amount: _mock.amount(index),
+  productName: _mock.productName(index),
+
+
+
 }));
 
 export const _userPayment = [...Array(2)].map((_, index) => ({
