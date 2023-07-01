@@ -89,6 +89,7 @@ export const _userCards = [...Array(6)].map((_, index) => ({
   id: _mock.id(index),
   avatarUrl: _mock.image.avatar(index),
   cover: _mock.image.cover(index),
+  shoeimage: _mock.shoeimage(index),
   name: _mock.name.fullName(index),
   follower: randomNumberRange(999, 99999),
   following: randomNumberRange(999, 99999),
