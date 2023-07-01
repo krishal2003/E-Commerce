@@ -67,10 +67,9 @@ export default function AboutTeam() {
         </Typography>
       </m.div>
 
-     <Box sx={{pt:5}}>
-
-      <MemberCard />
-     </Box>
+      <Box sx={{ pt: 5 }}>
+        <MemberCard />
+      </Box>
     </Container>
   );
 }
@@ -99,7 +98,7 @@ function MemberCard() {
         </Typography>
 
         <Typography variant="body2" sx={{ mb: 1, color: 'text.secondary' }}>
-          Founder
+          Co-Founder
         </Typography>
 
         <Box sx={{ px: 1 }}>
