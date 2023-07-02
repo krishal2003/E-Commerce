@@ -36,7 +36,7 @@ export default function MUISwitchPage() {
   return (
     <>
       <Head>
-        <title> MUI Components: Switch | ESAN</title>
+        <title> MUI Components: Switch | Dmerce</title>
       </Head>
 
       <Box

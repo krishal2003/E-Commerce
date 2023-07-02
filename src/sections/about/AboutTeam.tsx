@@ -2,7 +2,7 @@ import { m } from 'framer-motion';
 import { useRef } from 'react';
 // @mui
 import { useTheme } from '@mui/material/styles';
-import { Box, Card, Container, Typography } from '@mui/material';
+import { Box, Card, Container, Stack, Typography } from '@mui/material';
 // _mock_
 import { _carouselsMembers } from '../../_mock/arrays';
 // components
@@ -67,9 +67,14 @@ export default function AboutTeam() {
         </Typography>
       </m.div>
 
-      <Box sx={{ pt: 5 }}>
-        <MemberCard />
-      </Box>
+        <Stack
+          spacing={1.5}
+          direction={{ xs: 'row', sm: 'row' }}
+          justifyContent="center"
+          sx={{ mb: 5, pt: 5 }}
+        >
+          <MemberCard />
+        </Stack>
     </Container>
   );
 }
@@ -104,98 +109,8 @@ function MemberCard() {
         <Box sx={{ px: 1 }}>
           <Image alt="ayush" src="/assets/aayush.jpg/" ratio="1/1" sx={{ borderRadius: 2 }} />
         </Box>
-        {/* <SocialsDisplay/> */}
       </Card>
     </Box>
   );
 }
-// export function SocialsDisplay() {
-//   return (
-//     <Stack direction="row" alignItems="center" justifyContent="center" gap={2} sx={{ p: 2 }}>
-//       {facebook_link && (
-//         <Link href={`${facebook_link}`} target="_blank" rel="noopener">
-//           <Box
-//             sx={{
-//               color: '#1877F2',
-//               '&:hover': {
-//                 bgcolor: alpha('#1877F2', 0.08),
-//               },
-//             }}
-//           >
-//             <Iconify icon="eva:facebook-fill" />
-//           </Box>
-//         </Link>
-//       )}
-//       {instagram_link && (
-//         <Link href={`${instagram_link}`} target="_blank" rel="noopener">
-//           <Box
-//             sx={{
-//               color: '#E02D69',
-//               '&:hover': {
-//                 bgcolor: alpha('#E02D69', 0.08),
-//               },
-//             }}
-//           >
-//             <Iconify icon="ant-design:instagram-filled" />
-//           </Box>
-//         </Link>
-//       )}
-//       {twitter_link && (
-//         <Link href={`${twitter_link}`} target="_blank" rel="noopener">
-//           <Box
-//             sx={{
-//               color: '#00AAEC',
-//               '&:hover': {
-//                 bgcolor: alpha('#00AAEC', 0.08),
-//               },
-//             }}
-//           >
-//             <Iconify icon="eva:twitter-fill" />
-//           </Box>
-//         </Link>
-//       )}
-//       {discord_link && (
-//         <Link href={`${discord_link}`} target="_blank" rel="noopener">
-//           <Box
-//             sx={{
-//               color: '#5B67EA',
-//               '&:hover': {
-//                 bgcolor: alpha('#5B67EA', 0.08),
-//               },
-//             }}
-//           >
-//             <Iconify icon="ic:baseline-discord" />
-//           </Box>
-//         </Link>
-//       )}
-//       {twitch_link && (
-//         <Link href={`${twitch_link}`} target="_blank" rel="noopener">
-//           <Box
-//             sx={{
-//               color: '#A541F6',
-//               '&:hover': {
-//                 bgcolor: alpha('#A541F6', 0.08),
-//               },
-//             }}
-//           >
-//             <Iconify icon="mdi:twitch" />
-//           </Box>
-//         </Link>
-//       )}
-//       {linkedin_link && (
-//         <Link href={`${linkedin_link}`} target="_blank" rel="noopener">
-//           <Box
-//             sx={{
-//               color: '#007EBB',
-//               '&:hover': {
-//                 bgcolor: alpha('#007EBB', 0.08),
-//               },
-//             }}
-//           >
-//             <Iconify icon="eva:linkedin-fill" />
-//           </Box>
-//         </Link>
-//       )}
-//     </Stack>
-//   );
-// }
+

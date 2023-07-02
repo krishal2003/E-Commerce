@@ -59,7 +59,7 @@ export default function BlogPostsPage() {
   return (
     <>
       <Head>
-        <title> Blog: Posts | ESAN</title>
+        <title> Blog: Posts | Dmerce</title>
       </Head>
 
       <Container>

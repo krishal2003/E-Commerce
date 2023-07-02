@@ -4,15 +4,7 @@ import { useEffect, useState } from 'react';
 import NextLink from 'next/link';
 // @mui
 import { styled, alpha } from '@mui/material/styles';
-import {
-  Button,
-  Box,
-  Container,
-  Typography,
-  Stack,
-  Grid,
-  IconButton,
-} from '@mui/material';
+import { Button, Box, Container, Typography, Stack, Grid, IconButton } from '@mui/material';
 // routes
 import _mock from 'src/_mock/_mock';
 import { _socials } from 'src/_mock/arrays';
@@ -49,7 +41,7 @@ const StyledDescription = styled('div')(({ theme }) => ({
   flexDirection: 'column',
   alignItems: 'flex-start',
   justifyContent: 'center',
-  padding: theme.spacing(15, 0),
+  paddingTop: theme.spacing(15),
   height: '100%',
 }));
 
@@ -96,7 +88,7 @@ export default function HomeHero() {
         <Container component={MotionContainer}>
           <Grid container spacing={3}>
             <Grid item xs={12} md={5}>
-              <Description />
+               <Description />
             </Grid>
 
             <Grid item xs={12} md={7}>
@@ -139,7 +131,7 @@ function Description() {
       </m.div>
 
       <m.div variants={varFade().in}>
-        <Stack spacing={1.5} direction={{ xs: 'column-reverse', sm: 'row' }} sx={{ mb: 5 }}>
+        <Stack spacing={1.5} direction={{ xs: 'row', sm: 'row' }} sx={{ mb: 5 }}>
           <Stack alignItems="center" spacing={2}>
             <Button
               component={NextLink}
@@ -211,7 +203,8 @@ function Content() {
       container
       spacing={3}
       sx={{
-        py: { xs: 4, md: 10 },
+        py: { xs: 0, md: 10 },
+        pb: { xs: 3 },
       }}
     >
       <Grid item xs={12}>

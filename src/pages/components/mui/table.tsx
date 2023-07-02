@@ -24,7 +24,7 @@ export default function MUITablePage() {
   return (
     <>
       <Head>
-        <title> MUI Components: Table | ESAN</title>
+        <title> MUI Components: Table | Dmerce</title>
       </Head>
 
       <Box

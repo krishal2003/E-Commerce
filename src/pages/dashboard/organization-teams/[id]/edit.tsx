@@ -62,7 +62,7 @@ export default function OrganizationEditTeam() {
   return (
     <>
       <Head>
-        <title> User: Edit user | ESAN</title>
+        <title> User: Edit user | Dmerce</title>
       </Head>
 
       <Container maxWidth={themeStretch ? false : 'lg'}>

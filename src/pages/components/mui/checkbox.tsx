@@ -52,7 +52,7 @@ export default function MUICheckboxPage() {
   return (
     <>
       <Head>
-        <title> MUI Components: Checkbox | ESAN</title>
+        <title> MUI Components: Checkbox | Dmerce</title>
       </Head>
 
       <Box

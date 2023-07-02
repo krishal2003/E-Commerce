@@ -27,7 +27,7 @@ export default function DemoNavigationBarPage() {
   return (
     <>
       <Head>
-        <title> Extra Components: Navigation Bar | ESAN</title>
+        <title> Extra Components: Navigation Bar | Dmerce</title>
       </Head>
 
       <Box

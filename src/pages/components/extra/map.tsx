@@ -74,7 +74,7 @@ export default function DemoMapPage() {
   return (
     <>
       <Head>
-        <title> Extra Components: Map | ESAN</title>
+        <title> Extra Components: Map | Dmerce</title>
       </Head>
 
       <Box

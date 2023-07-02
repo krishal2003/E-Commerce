@@ -88,7 +88,7 @@ export default function MUIRatingPage() {
   return (
     <>
       <Head>
-        <title> MUI Components: Rating | ESAN</title>
+        <title> MUI Components: Rating | Dmerce</title>
       </Head>
 
       <Box

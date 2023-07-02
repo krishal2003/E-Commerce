@@ -107,7 +107,7 @@ export default function KanbanPage() {
   return (
     <>
       <Head>
-        <title> Kanban | ESAN</title>
+        <title> Kanban | Dmerce</title>
       </Head>
 
       <Container maxWidth={false} sx={{ height: 1 }}>

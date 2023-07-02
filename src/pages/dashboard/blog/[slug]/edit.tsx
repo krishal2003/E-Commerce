@@ -62,7 +62,7 @@ export default function BlogEditPostPage() {
   return (
     <>
       <Head>
-        <title> Blog: Edit | ESAN</title>
+        <title> Blog: Edit | Dmerce</title>
       </Head>
 
       <Container maxWidth={themeStretch ? false : 'lg'}>

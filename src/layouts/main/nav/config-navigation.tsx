@@ -41,9 +41,6 @@ const navConfig = [
         subheader: 'Articles',
         items: [
           { title: 'Blogs', path: PATH_PAGE.blog.root },
-          { title: 'News', path: PATH_PAGE.comingSoon },
-          { title: 'Events', path: PATH_PAGE.comingSoon },
-          { title: 'Tournaments', path: PATH_PAGE.tournaments },
           { title: 'Announcements', path: PATH_PAGE.comingSoon },
           { title: 'Updates', path: PATH_PAGE.comingSoon },
         ],

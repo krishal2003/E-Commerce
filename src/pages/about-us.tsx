@@ -18,14 +18,13 @@ export default function AboutPage() {
   return (
     <>
       <Head>
-        <title> About us | ESAN</title>
+        <title> About us | Dmerce</title>
       </Head>
 
       <AboutHero />
       <AboutWhat />
 
       <AboutTeam />
-
     </>
   );
 }

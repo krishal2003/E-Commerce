@@ -20,7 +20,7 @@ export default function BlankPage() {
   return (
     <>
       <Head>
-        <title> Blank Page | ESAN</title>
+        <title> Blank Page | Dmerce</title>
       </Head>
 
       <Container maxWidth={themeStretch ? false : 'xl'}>

@@ -43,7 +43,7 @@ export default function GeneralBookingPage() {
   return (
     <>
       <Head>
-        <title> General: Booking | ESAN</title>
+        <title> General: Booking | Dmerce</title>
       </Head>
 
       <Container maxWidth={themeStretch ? false : 'xl'}>

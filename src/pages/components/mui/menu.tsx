@@ -98,7 +98,7 @@ export default function MUIMenuPage() {
   return (
     <>
       <Head>
-        <title> MUI Components: Menu | ESAN</title>
+        <title> MUI Components: Menu | Dmerce</title>
       </Head>
 
       <Box

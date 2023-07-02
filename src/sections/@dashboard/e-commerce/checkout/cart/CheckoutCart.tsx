@@ -97,6 +97,7 @@ export default function CheckoutCart({
           variant="contained"
           disabled={!cart.length}
           onClick={onNextStep}
+          sx={{mb:3}}
         >
           Check Out
         </Button>

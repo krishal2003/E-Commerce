@@ -69,7 +69,7 @@ export default function BlogPostPage() {
   return (
     <>
       <Head>
-        <title>{`Blog: ${post?.title || ''} | ESAN`}</title>
+        <title>{`Blog: ${post?.title || ''} | Dmerce`}</title>
       </Head>
 
       <Container>

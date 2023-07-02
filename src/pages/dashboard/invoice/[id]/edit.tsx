@@ -33,7 +33,7 @@ export default function InvoiceEditPage() {
   return (
     <>
       <Head>
-        <title> Invoice: Edit | ESAN</title>
+        <title> Invoice: Edit | Dmerce</title>
       </Head>
 
       <Container maxWidth={themeStretch ? false : 'lg'}>

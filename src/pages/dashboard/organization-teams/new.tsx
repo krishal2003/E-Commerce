@@ -22,7 +22,7 @@ export default function BlogNewPostPage() {
   return (
     <>
       <Head>
-        <title> Organizer: New Team | ESAN</title>
+        <title> Organizer: New Team | Dmerce</title>
       </Head>
 
       <Container>

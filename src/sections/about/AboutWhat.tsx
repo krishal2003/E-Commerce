@@ -73,15 +73,17 @@ export default function AboutWhat() {
           )}
 
           <Grid item xs={12} md={6} lg={5}>
-           
-
             <m.div variants={varFade().inRight}>
               <Typography
                 sx={{
                   color: theme.palette.mode === 'light' ? 'text.secondary' : 'common.white',
                 }}
               >
-            ESAN is a game hosting platform which offers cutting-edge servers and powerful hardware to provide seamless online gaming experiences for players worldwide. With customizable hosting plans, 24/7 customer support, and robust security features, ESAN is a trusted choice for game developers and communities looking for reliable and high-performance game hosting solutions.
+                Dmerce is a game hosting platform which offers cutting-edge servers and powerful
+                hardware to provide seamless online gaming experiences for players worldwide. With
+                customizable hosting plans, 24/7 customer support, and robust security features,
+                Dmerce is a trusted choice for game developers and communities looking for reliable
+                and high-performance game hosting solutions.
               </Typography>
             </m.div>
 

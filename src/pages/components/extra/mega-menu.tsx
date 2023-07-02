@@ -30,7 +30,7 @@ export default function DemoMegaMenuPage() {
   return (
     <>
       <Head>
-        <title> Extra Components: Mega Menu | ESAN</title>
+        <title> Extra Components: Mega Menu | Dmerce</title>
       </Head>
 
       <Box

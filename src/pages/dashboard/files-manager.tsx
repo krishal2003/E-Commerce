@@ -196,7 +196,7 @@ export default function FileManagerPage() {
   return (
     <>
       <Head>
-        <title> File Manager | ESAN</title>
+        <title> File Manager | Dmerce</title>
       </Head>
 
       <Container maxWidth={themeStretch ? false : 'lg'}>

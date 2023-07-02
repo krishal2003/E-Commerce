@@ -15,7 +15,7 @@ export default function MailPage() {
   return (
     <>
       <Head>
-        <title> Mail | ESAN</title>
+        <title> Mail | Dmerce</title>
       </Head>
 
       <Mail />

@@ -9,7 +9,7 @@ export default function RegisterUnprotectedPage() {
   return (
     <>
       <Head>
-        <title> Register Unprotected | ESAN</title>
+        <title> Register Unprotected | Dmerce</title>
       </Head>
 
       <Register />

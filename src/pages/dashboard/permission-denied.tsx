@@ -43,7 +43,7 @@ export default function PermissionDeniedPage() {
   return (
     <>
       <Head>
-        <title> Other Cases: Permission Denied | ESAN</title>
+        <title> Other Cases: Permission Denied | Dmerce</title>
       </Head>
 
       <Container maxWidth={themeStretch ? false : 'lg'}>

@@ -65,7 +65,7 @@ export default function DemoCopyToClipboardPage() {
   return (
     <>
       <Head>
-        <title> Extra Components: Copy To Clipboard | ESAN</title>
+        <title> Extra Components: Copy To Clipboard | Dmerce</title>
       </Head>
 
       <Box

@@ -26,7 +26,7 @@ export default function DemoLabelPage() {
   return (
     <>
       <Head>
-        <title> Extra Components: Label | ESAN</title>
+        <title> Extra Components: Label | Dmerce</title>
       </Head>
 
       <Box

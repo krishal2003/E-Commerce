@@ -24,7 +24,7 @@ export default function UserCreatePage() {
   return (
     <>
       <Head>
-        <title> User: Create a new user | ESAN</title>
+        <title> User: Create a new user | Dmerce</title>
       </Head>
 
       <Container maxWidth={themeStretch ? false : 'lg'}>

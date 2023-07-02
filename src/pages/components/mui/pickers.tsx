@@ -36,7 +36,7 @@ export default function MUIPickersPage() {
   return (
     <>
       <Head>
-        <title> MUI Components: Pickers | ESAN</title>
+        <title> MUI Components: Pickers | Dmerce</title>
       </Head>
 
       <Box

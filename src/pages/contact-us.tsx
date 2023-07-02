@@ -19,7 +19,7 @@ export default function ContactPage() {
   return (
     <>
       <Head>
-        <title> Contact us | ESAN</title>
+        <title> Contact us | Dmerce</title>
       </Head>
 
       <ContactHero />

@@ -46,7 +46,7 @@ export default function EcommerceProductEditPage() {
   return (
     <>
       <Head>
-        <title> Ecommerce: Edit product | ESAN</title>
+        <title> Ecommerce: Edit product | Dmerce</title>
       </Head>
 
       <Container maxWidth={themeStretch ? false : 'lg'}>

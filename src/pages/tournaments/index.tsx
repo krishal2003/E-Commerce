@@ -21,7 +21,7 @@ export default function Tournaments() {
   return (
     <>
       <Head>
-        <title> Tournaments | ESAN</title>
+        <title> Tournaments | Dmerce</title>
       </Head>
 
       <TournamentHero />

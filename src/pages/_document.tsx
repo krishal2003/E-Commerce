@@ -34,10 +34,10 @@ export default class MyDocument extends Document {
           {/* Meta */}
           <meta
             name="description"
-            content="ESAN - Your ultimate gaming destination based in Nepal. Get ready to explore a world of gaming with us, built specifically for gaming enthusiasts."
+            content="Dmerce -  Discover, Shop, and Experience the Ultimate Online Retail Adventure with Confidence and Convenience!"
           />
-          <meta name="keywords" content="ESAN, gaming, Nepal" />
-          <meta name="author" content="ESAN Gaming Website" />
+          <meta name="keywords" content="Dmerce, shopping, Nepal" />
+          <meta name="author" content="Dmerce E-Commerce Website" />
         </Head>
 
         <body>

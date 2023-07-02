@@ -19,7 +19,7 @@ export default function PricingPage() {
   return (
     <>
       <Head>
-        <title> Pricing | ESAN</title>
+        <title> Pricing | Dmerce</title>
       </Head>
 
       <Container

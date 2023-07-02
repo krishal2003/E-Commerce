@@ -18,7 +18,7 @@ export default function TermsAndConditions() {
   return (
     <>
       <Head>
-        <title> Terms | ESAN</title>
+        <title> Terms | Dmerce</title>
       </Head>
 
       <Container>
@@ -28,14 +28,14 @@ export default function TermsAndConditions() {
 
         <Box sx={{ pb: 8 }}>
           <Typography variant="h5" sx={{ pt: 2 }}>
-            Hello and welcome to ESAN&apos;s Terms of Service!
+            Hello and welcome to Dmerce&apos;s Terms of Service!
           </Typography>
           <Typography variant="body1" color="text.secondary" sx={{ pt: 2 }}>
             These Terms of Service ("Terms") cover your use of and access to the sites, templates,
             products, applications, tools, services and features (collectively, the "Services")
-            provided by ESAN (as defined below), including without limitation during free trials, on
-            the websites and associated domains of www.ESAN.com, www.acuityscheduling.com,
-            www.unfold.com and www.bio.site and on ESAN web, mobile and other applications.
+            provided by Dmerce (as defined below), including without limitation during free trials,
+            on the websites and associated domains of www.Dmerce.com, www.acuityscheduling.com,
+            www.unfold.com and www.bio.site and on Dmerce web, mobile and other applications.
             <br />
             <br />
             Please read this Agreement (as defined below) carefully! IT INCLUDES IMPORTANT
@@ -57,17 +57,17 @@ export default function TermsAndConditions() {
             <br />
             If you are a resident of or have your principal place of business in the United States
             of America or any of its territories or possessions (the “US”), you are agreeing to this
-            Agreement with ESAN, Inc. and are a “US User”. Otherwise, you are agreeing to this
-            Agreement with ESAN Ireland Limited (“ESAN Ireland”) and are a “Non-US User”. References
-            to “ESAN”, “us”, “we” and “our” mean ESAN, Inc. if you are a US User or ESAN Ireland if
-            you are a Non-US User. If your place of residence or principal place of business
-            changes, the ESAN entity you contract with will be determined by your new residence or
-            principal place of business, as specified above, from the date it changes. In addition,
-            certain services may be provided to you by a ESAN group company other than ESAN, Inc. or
-            ESAN Ireland and may be subject to additional terms directly between you and such other
-            ESAN group company; such additional terms will specify the name of the ESAN group
-            company and you will contract with such ESAN group company solely with respect to such
-            terms and such service.
+            Agreement with Dmerce, Inc. and are a “US User”. Otherwise, you are agreeing to this
+            Agreement with Dmerce Ireland Limited (“Dmerce Ireland”) and are a “Non-US User”.
+            References to “Dmerce”, “us”, “we” and “our” mean Dmerce, Inc. if you are a US User or
+            Dmerce Ireland if you are a Non-US User. If your place of residence or principal place
+            of business changes, the Dmerce entity you contract with will be determined by your new
+            residence or principal place of business, as specified above, from the date it changes.
+            In addition, certain services may be provided to you by a Dmerce group company other
+            than Dmerce, Inc. or Dmerce Ireland and may be subject to additional terms directly
+            between you and such other Dmerce group company; such additional terms will specify the
+            name of the Dmerce group company and you will contract with such Dmerce group company
+            solely with respect to such terms and such service.
             <br />
             <br />
             <Typography variant="h6" sx={{ pt: 3 }} color="textPrimary">
@@ -104,29 +104,29 @@ export default function TermsAndConditions() {
               The Services are integrated with various third party services and applications
               (collectively, “Third Party Services”) that may make their content, products or
               services available to you. Examples of Third Party Services include certain domain
-              name registration services, social media platforms, ESAN Experts (as defined below),
-              eCommerce Payment Processors (as defined below), extensions listed on ESAN Extensions
-              (as defined below) and other integrations or extensions, stock images and email
-              service subscriptions for sale via the Services and other integration partners and
-              service providers. These Third Party Services may have their own terms and policies,
-              and your use of them will be governed by those terms and policies. Any information
-              that a Third Party Service collects, stores and processes from you or Your Sites will
-              be subject to such Third Party Service’s terms of service, privacy notice, or similar
-              terms, and will not be subject to our Privacy Policy or Data Processing Addendum.
-              Therefore, please evaluate and ensure you trust each Third Party Service prior to
-              connecting Your Site to its services. Each Third Party Service is solely responsible
-              for providing all support, maintenance and technical assistance to you with respect to
-              their services (including their interoperation with Your Sites). When using Third
-              Party Services, your security is your responsibility. We don't control Third Party
-              Services, and we’re not liable for Third Party Services or for any transaction you may
-              enter into with them, or for what they do. We may receive a revenue share from Third
-              Party Services that we recommend to you or that you otherwise engage via the Services.
-              You agree that we may, at any time and in our sole discretion, and without any notice
-              to you, suspend, disable access to or remove any Third Party Services. We’re not
-              liable for any such suspension, disabling or removal, including without limitation for
-              any loss of profits, revenue, data, goodwill or other intangible losses, or business
-              disruption, costs or expenses you may incur or otherwise experience as a result
-              (except where prohibited by applicable law).{' '}
+              name registration services, social media platforms, Dmerce Experts (as defined below),
+              eCommerce Payment Processors (as defined below), extensions listed on Dmerce
+              Extensions (as defined below) and other integrations or extensions, stock images and
+              email service subscriptions for sale via the Services and other integration partners
+              and service providers. These Third Party Services may have their own terms and
+              policies, and your use of them will be governed by those terms and policies. Any
+              information that a Third Party Service collects, stores and processes from you or Your
+              Sites will be subject to such Third Party Service’s terms of service, privacy notice,
+              or similar terms, and will not be subject to our Privacy Policy or Data Processing
+              Addendum. Therefore, please evaluate and ensure you trust each Third Party Service
+              prior to connecting Your Site to its services. Each Third Party Service is solely
+              responsible for providing all support, maintenance and technical assistance to you
+              with respect to their services (including their interoperation with Your Sites). When
+              using Third Party Services, your security is your responsibility. We don't control
+              Third Party Services, and we’re not liable for Third Party Services or for any
+              transaction you may enter into with them, or for what they do. We may receive a
+              revenue share from Third Party Services that we recommend to you or that you otherwise
+              engage via the Services. You agree that we may, at any time and in our sole
+              discretion, and without any notice to you, suspend, disable access to or remove any
+              Third Party Services. We’re not liable for any such suspension, disabling or removal,
+              including without limitation for any loss of profits, revenue, data, goodwill or other
+              intangible losses, or business disruption, costs or expenses you may incur or
+              otherwise experience as a result (except where prohibited by applicable law).{' '}
             </Typography>
             <Typography variant="h6" sx={{ pt: 3 }} color="textPrimary">
               3. &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Our Rights
@@ -186,7 +186,7 @@ export default function TermsAndConditions() {
               6. &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Additional Terms
             </Typography>
             <Typography>
-              This Agreement constitutes the entire agreement between you and ESAN regarding the
+              This Agreement constitutes the entire agreement between you and Dmerce regarding the
               subject matter of this Agreement, and supersedes and replaces any other prior or
               contemporaneous agreements, or terms and conditions applicable to the subject matter
               of this Agreement. You agree that you have not relied upon, and have no remedies in
@@ -196,8 +196,8 @@ export default function TermsAndConditions() {
               Party Services. This Agreement creates no third party beneficiary rights, and no third
               party shall have any right or standing to claim benefit or bring an action to enforce
               this Agreement (except otherwise agreed upon in additional terms between you and a
-              ESAN group company that sets forth such ESAN group company’s third party beneficiary
-              rights to enforce this Agreement).
+              Dmerce group company that sets forth such Dmerce group company’s third party
+              beneficiary rights to enforce this Agreement).
               <br />
               <br />. We are not in breach of this Agreement or liable to you if there is any total
               or partial failure of performance of the Services resulting from any act,

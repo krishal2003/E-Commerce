@@ -40,7 +40,7 @@ export default function PlayerList() {
   return (
     <>
       <Head>
-        <title> Organizational Chart | ESAN</title>
+        <title> Organizational Chart | Dmerce</title>
       </Head>
 
       <Container maxWidth={false}>

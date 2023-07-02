@@ -121,7 +121,7 @@ export default function EcommerceCheckoutPage() {
   return (
     <>
       <Head>
-        <title> Ecommerce: Checkout | ESAN</title>
+        <title> Ecommerce: Checkout | Dmerce</title>
       </Head>
 
       <Container maxWidth={themeStretch ? false : 'lg'}>

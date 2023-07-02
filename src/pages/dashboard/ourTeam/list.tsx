@@ -143,7 +143,7 @@ export default function TeamListPage() {
   return (
     <>
       <Head>
-        <title> Our Team: List | ESAN</title>
+        <title> Our Team: List | Dmerce</title>
       </Head>
 
       <Container maxWidth={themeStretch ? false : 'lg'}>

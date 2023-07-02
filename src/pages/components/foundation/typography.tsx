@@ -55,7 +55,7 @@ export default function FoundationTypographyPage() {
   return (
     <>
       <Head>
-        <title> Foundations: Typography | ESAN</title>
+        <title> Foundations: Typography | Dmerce</title>
       </Head>
 
       <Box

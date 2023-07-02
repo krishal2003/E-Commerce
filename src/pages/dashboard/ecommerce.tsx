@@ -49,7 +49,7 @@ export default function GeneralEcommercePage() {
   return (
     <>
       <Head>
-        <title> General: E-commerce | ESAN</title>
+        <title> General: E-commerce | Dmerce</title>
       </Head>
 
       <Container maxWidth={themeStretch ? false : 'xl'}>

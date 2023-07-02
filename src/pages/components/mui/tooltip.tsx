@@ -40,7 +40,7 @@ export default function MUITooltipPage() {
   return (
     <>
       <Head>
-        <title> MUI Components: Tooltip | ESAN</title>
+        <title> MUI Components: Tooltip | Dmerce</title>
       </Head>
 
       <Box

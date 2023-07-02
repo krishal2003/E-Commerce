@@ -26,7 +26,7 @@ export default function EcommerceProductCreatePage() {
   return (
     <>
       <Head>
-        <title> Ecommerce: Create a new product | ESAN</title>
+        <title> Ecommerce: Create a new product | Dmerce</title>
       </Head>
 
       <Container maxWidth={themeStretch ? false : 'lg'}>

@@ -3,7 +3,7 @@ import dynamic from 'next/dynamic';
 import { useRouter } from 'next/router';
 // @mui
 import { Box } from '@mui/material';
-import {  _shopCards } from 'src/_mock/arrays';
+import { _shopCards } from 'src/_mock/arrays';
 import ShopCard from 'src/sections/@dashboard/user/cards/ShopCard';
 //
 const ShopHeader = dynamic(() => import('./ShopHeader'), { ssr: false });
@@ -22,8 +22,8 @@ export default function ShopLayout({ children }: Props) {
 
   return (
     <Box sx={{ display: 'flex', flexDirection: 'column', height: 1 }}>
-        <ShopHeader />
-<Box
+      <ShopHeader />
+      <Box
         gap={3}
         display="grid"
         gridTemplateColumns={{

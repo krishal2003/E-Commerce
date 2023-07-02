@@ -106,7 +106,7 @@ export default function MUITimelinePage() {
   return (
     <>
       <Head>
-        <title> MUI Components: Timeline | ESAN</title>
+        <title> MUI Components: Timeline | Dmerce</title>
       </Head>
 
       <Box

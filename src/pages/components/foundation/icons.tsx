@@ -33,7 +33,7 @@ export default function FoundationIconsPage() {
   return (
     <>
       <Head>
-        <title> Foundations: Icons | ESAN</title>
+        <title> Foundations: Icons | Dmerce</title>
       </Head>
 
       <Box

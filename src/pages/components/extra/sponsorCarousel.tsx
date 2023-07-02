@@ -41,7 +41,7 @@ export default function DemoCarouselsPage() {
   return (
     <>
       <Head>
-        <title> Extra Components: Carousels | ESAN</title>
+        <title> Extra Components: Carousels | Dmerce</title>
       </Head>
 
       <Box

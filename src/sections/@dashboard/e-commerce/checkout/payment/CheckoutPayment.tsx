@@ -38,10 +38,10 @@ const DELIVERY_OPTIONS: ICheckoutDeliveryOption[] = [
 
 const PAYMENT_OPTIONS: ICheckoutPaymentOption[] = [
   {
-    value: 'paypal',
-    title: 'Pay with Paypal',
-    description: 'You will be redirected to PayPal website to complete your purchase securely.',
-    icons: ['/assets/icons/payments/ic_paypal.svg'],
+    value: 'esewa',
+    title: 'Pay with E Sewa',
+    description: 'You will be redirected to Esewa website/ application to complete your purchase securely.',
+    icons: ['/assets/icons/payments/ic_esewa.svg'],
   },
   {
     value: 'credit_card',
@@ -132,6 +132,7 @@ export default function CheckoutPayment({
             color="inherit"
             onClick={onBackStep}
             startIcon={<Iconify icon="eva:arrow-ios-back-fill" />}
+            sx={{mb:3}}
           >
             Back
           </Button>

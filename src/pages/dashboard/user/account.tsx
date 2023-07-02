@@ -106,7 +106,7 @@ export default function UserAccountPage() {
   return (
     <>
       <Head>
-        <title> User: Account Settings | ESAN</title>
+        <title> User: Account Settings | Dmerce</title>
       </Head>
 
       <Container maxWidth={themeStretch ? false : 'lg'}>

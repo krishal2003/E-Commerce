@@ -45,7 +45,6 @@ export default function Tournament() {
     getTournamentList();
   }, [getTournamentList]);
 
-
   // eslint-disable-next-line @typescript-eslint/no-shadow
 
   const [currentTab, setCurrentTab] = useState('overview');
@@ -107,15 +106,13 @@ export default function Tournament() {
     // },
   ];
 
- 
-
   return (
     <div>
       {tournamentList &&
         tournamentList.map((tournaments) => (
           <>
             <Head>
-              <title> {tournaments.tournament_name} | ESAN</title>
+              <title> {tournaments.tournament_name} | Dmerce</title>
             </Head>
 
             <Container sx={{ pt: 1, pb: 10, position: 'relative' }}>
@@ -144,7 +141,6 @@ export default function Tournament() {
               {TABS.map(
                 (tab) => tab.value === currentTab && <Box key={tab.value}>{tab.component}</Box>
               )}
-              
             </Container>
           </>
         ))}

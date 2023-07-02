@@ -29,7 +29,7 @@ export default function DemoImagePage() {
   return (
     <>
       <Head>
-        <title> Extra Components: Image | ESAN</title>
+        <title> Extra Components: Image | Dmerce</title>
       </Head>
 
       <Box

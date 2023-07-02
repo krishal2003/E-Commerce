@@ -19,7 +19,7 @@ export default function ComponentsOverviewPage() {
   return (
     <>
       <Head>
-        <title> Components Overview | ESAN</title>
+        <title> Components Overview | Dmerce</title>
       </Head>
 
       <ComponentHero />

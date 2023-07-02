@@ -21,7 +21,7 @@ export default function BlogNewPostPage() {
   return (
     <>
       <Head>
-        <title> Blog: New Post | ESAN</title>
+        <title> Blog: New Post | Dmerce</title>
       </Head>
 
       <Container>

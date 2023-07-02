@@ -26,7 +26,7 @@ export default function UserCardsPage() {
   return (
     <>
       <Head>
-        <title> User: Cards | ESAN</title>
+        <title> User: Cards | Dmerce</title>
       </Head>
 
       <Container maxWidth={themeStretch ? false : 'lg'}>

@@ -40,7 +40,7 @@ export default function MUIAvatarPage() {
   return (
     <>
       <Head>
-        <title> MUI Components: Avatar | ESAN</title>
+        <title> MUI Components: Avatar | Dmerce</title>
       </Head>
 
       <Box

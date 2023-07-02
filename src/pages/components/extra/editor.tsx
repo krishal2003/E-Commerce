@@ -35,7 +35,7 @@ export default function DemoEditorPage() {
   return (
     <>
       <Head>
-        <title> Extra Components: Editor | ESAN</title>
+        <title> Extra Components: Editor | Dmerce</title>
       </Head>
 
       <Box

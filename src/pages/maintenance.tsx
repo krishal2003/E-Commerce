@@ -18,7 +18,7 @@ export default function MaintenancePage() {
   return (
     <>
       <Head>
-        <title> Maintenance | ESAN</title>
+        <title> Maintenance | Dmerce</title>
       </Head>
 
       <Stack sx={{ alignItems: 'center' }}>

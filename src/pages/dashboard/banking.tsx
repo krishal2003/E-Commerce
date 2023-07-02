@@ -40,7 +40,7 @@ export default function GeneralBankingPage() {
   return (
     <>
       <Head>
-        <title> General: Banking | ESAN</title>
+        <title> General: Banking | Dmerce</title>
       </Head>
 
       <Container maxWidth={themeStretch ? false : 'xl'}>

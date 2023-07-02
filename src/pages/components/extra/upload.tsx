@@ -87,7 +87,7 @@ export default function DemoUploadPage() {
   return (
     <>
       <Head>
-        <title> Extra Components: Upload | ESAN</title>
+        <title> Extra Components: Upload | Dmerce</title>
       </Head>
 
       <Box

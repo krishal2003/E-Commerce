@@ -71,7 +71,7 @@ export default function DemoLightboxPage() {
   return (
     <>
       <Head>
-        <title> Extra Components: Lightbox | ESAN</title>
+        <title> Extra Components: Lightbox | Dmerce</title>
       </Head>
 
       <Box

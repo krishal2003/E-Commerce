@@ -37,7 +37,7 @@ export default function MUIDialogPage() {
   return (
     <>
       <Head>
-        <title> MUI Components: Dialog | ESAN</title>
+        <title> MUI Components: Dialog | Dmerce</title>
       </Head>
 
       <Box

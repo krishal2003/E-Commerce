@@ -153,7 +153,7 @@ export default function FAQListPage() {
   return (
     <>
       <Head>
-        <title> FAQ: List | ESAN</title>
+        <title> FAQ: List | Dmerce</title>
       </Head>
 
       <Container maxWidth={themeStretch ? false : 'lg'}>

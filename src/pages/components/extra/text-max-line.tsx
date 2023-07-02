@@ -21,7 +21,7 @@ export default function DemoTextMaxLinePage() {
   return (
     <>
       <Head>
-        <title> Extra Components: Text Max Line | ESAN</title>
+        <title> Extra Components: Text Max Line | Dmerce</title>
       </Head>
 
       <Box

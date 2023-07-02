@@ -72,7 +72,7 @@ export default function EventPage() {
   return (
     <>
       <Head>
-        <title>{`Event: ${event?.event_name || ''} | ESAN`}</title>
+        <title>{`Event: ${event?.event_name || ''} | Dmerce`}</title>
       </Head>
 
       <Container sx={{ mb: 3 }} maxWidth="xl">

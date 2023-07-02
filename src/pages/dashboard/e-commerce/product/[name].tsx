@@ -99,7 +99,7 @@ export default function EcommerceProductDetailsPage() {
   return (
     <>
       <Head>
-        <title>{`Ecommerce: ${product?.name || ''} | ESAN`}</title>
+        <title>{`Ecommerce: ${product?.name || ''} | Dmerce`}</title>
       </Head>
 
       <Container maxWidth={themeStretch ? false : 'lg'}>

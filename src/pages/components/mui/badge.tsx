@@ -23,7 +23,7 @@ export default function MUIBadgePage() {
   return (
     <>
       <Head>
-        <title> MUI Components: Badge | ESAN</title>
+        <title> MUI Components: Badge | Dmerce</title>
       </Head>
 
       <Box

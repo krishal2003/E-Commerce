@@ -5,6 +5,7 @@ import ShopLayout from 'src/layouts/main/ShopLayout';
 import CartWidget from 'src/sections/@dashboard/e-commerce/CartWidget';
 import { useSelector } from 'react-redux';
 import { RootState } from 'src/redux/store';
+import Head from 'next/head';
 
 Shop.getLayout = (page: React.ReactElement) => <DashboardLayout>{page}</DashboardLayout>;
 
@@ -12,10 +13,12 @@ function Shop() {
    const { product, isLoading, checkout } = useSelector((state: RootState) => state.product);
 
   return (
-    <Container>
-      <ShopLayout />
-      <CartWidget totalItems={checkout.totalItems} />
-    </Container>
+    <><Head>
+      <title>Shop | Dmerce</title>
+    </Head><Container>
+        <ShopLayout />
+        <CartWidget totalItems={checkout.totalItems} />
+      </Container></>
   );
 }
 

@@ -140,7 +140,7 @@ export default function AboutTestimonials() {
       <ConfirmDialog
         open={openConfirm}
         onClose={handleCloseConfirm}
-        title="Share Your Thoughts on ESAN"
+        title="Share Your Thoughts on Dmerce"
         content={<TestimonialsForm />}
         maxWidth="md"
       />

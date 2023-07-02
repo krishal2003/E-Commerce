@@ -36,7 +36,7 @@ export default function MUIAlertPage() {
   return (
     <>
       <Head>
-        <title> MUI Components: Alert | ESAN</title>
+        <title> MUI Components: Alert | Dmerce</title>
       </Head>
 
       <Box

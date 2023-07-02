@@ -96,7 +96,7 @@ export default function EcommerceShopPage() {
   return (
     <>
       <Head>
-        <title> Ecommerce: Shop | ESAN</title>
+        <title> Ecommerce: Shop | Dmerce</title>
       </Head>
 
       <FormProvider methods={methods}>

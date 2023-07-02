@@ -24,7 +24,7 @@ export default function NewPasswordPage() {
   return (
     <>
       <Head>
-        <title> New Password | ESAN</title>
+        <title> New Password | Dmerce</title>
       </Head>
 
       <SentIcon sx={{ mb: 5, height: 96 }} />

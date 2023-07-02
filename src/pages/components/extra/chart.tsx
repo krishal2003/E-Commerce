@@ -34,7 +34,7 @@ export default function DemoChartsPage() {
   return (
     <>
       <Head>
-        <title> Extra Components: Charts | ESAN</title>
+        <title> Extra Components: Charts | Dmerce</title>
       </Head>
 
       <Box

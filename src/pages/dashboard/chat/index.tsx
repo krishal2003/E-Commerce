@@ -15,7 +15,7 @@ export default function ChatPage() {
   return (
     <>
       <Head>
-        <title> Chat | ESAN</title>
+        <title> Chat | Dmerce</title>
       </Head>
 
       <Chat />

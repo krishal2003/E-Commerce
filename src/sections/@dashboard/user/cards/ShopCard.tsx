@@ -33,10 +33,10 @@ export default function ShopCard({ user }: Props) {
         Rs. {amount}
       </Typography>
       <Box sx={{ mt: -3, pb: 2 }}>
-        <Link href={`/shop/${productName}`}>
+        <Link href={`/shop/${productName}`} style={{ textDecoration: 'none', color: 'white' }}>
           <Button variant="contained">Buy</Button>
         </Link>
-        <Link href="/coming-soon">
+        <Link href="/coming-soon" style={{ textDecoration: 'none', color: 'white' }}>
           <Button>Add to Cart</Button>
         </Link>
       </Box>

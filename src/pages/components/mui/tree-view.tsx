@@ -45,7 +45,7 @@ export default function MUITreesViewPage() {
   return (
     <>
       <Head>
-        <title> MUI Components: Tree View | ESAN</title>
+        <title> MUI Components: Tree View | Dmerce</title>
       </Head>
 
       <Box

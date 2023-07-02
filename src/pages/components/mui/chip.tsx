@@ -21,7 +21,7 @@ export default function MUIChipPage() {
   return (
     <>
       <Head>
-        <title> MUI Components: Chip | ESAN</title>
+        <title> MUI Components: Chip | Dmerce</title>
       </Head>
 
       <Box

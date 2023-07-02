@@ -20,7 +20,7 @@ export default function DemoScrollbarPage() {
   return (
     <>
       <Head>
-        <title> Extra Components: Scrollbar | ESAN</title>
+        <title> Extra Components: Scrollbar | Dmerce</title>
       </Head>
 
       <Box

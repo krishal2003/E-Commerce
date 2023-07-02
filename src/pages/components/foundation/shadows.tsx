@@ -51,7 +51,7 @@ export default function FoundationShadowsPage() {
   return (
     <>
       <Head>
-        <title> Foundations: Shadows | ESAN</title>
+        <title> Foundations: Shadows | Dmerce</title>
       </Head>
 
       <Box

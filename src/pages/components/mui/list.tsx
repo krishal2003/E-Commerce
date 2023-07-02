@@ -97,7 +97,7 @@ export default function MUIListPage() {
   return (
     <>
       <Head>
-        <title> MUI Components: List | ESAN</title>
+        <title> MUI Components: List | Dmerce</title>
       </Head>
 
       <Box

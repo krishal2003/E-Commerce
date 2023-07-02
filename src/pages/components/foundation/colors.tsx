@@ -54,7 +54,7 @@ export default function FoundationColorsPage() {
   return (
     <>
       <Head>
-        <title> Foundations: Colors | ESAN</title>
+        <title> Foundations: Colors | Dmerce</title>
       </Head>
 
       <Box

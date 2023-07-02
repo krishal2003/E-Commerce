@@ -79,7 +79,7 @@ export default function MUISliderPage() {
   return (
     <>
       <Head>
-        <title> MUI Components: Slider | ESAN</title>
+        <title> MUI Components: Slider | Dmerce</title>
       </Head>
 
       <Box

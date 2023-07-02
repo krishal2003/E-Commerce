@@ -60,6 +60,7 @@ export default function CheckoutBillingAddress({ checkout, onBackStep, onCreateB
               variant="soft"
               onClick={handleOpen}
               startIcon={<Iconify icon="eva:plus-fill" />}
+              sx={{mb:3}}
             >
               Add new address
             </Button>

@@ -78,7 +78,7 @@ export default function MUITabsPage() {
   return (
     <>
       <Head>
-        <title> MUI Components: Tabs | ESAN</title>
+        <title> MUI Components: Tabs | Dmerce</title>
       </Head>
 
       <Box

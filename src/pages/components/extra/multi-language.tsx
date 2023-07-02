@@ -60,7 +60,7 @@ export default function DemoMultiLanguagePage() {
   return (
     <>
       <Head>
-        <title> Extra Components: Multi Language | ESAN</title>
+        <title> Extra Components: Multi Language | Dmerce</title>
       </Head>
 
       <Box

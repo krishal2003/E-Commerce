@@ -35,7 +35,7 @@ export default function InvoiceDetailsPage() {
   return (
     <>
       <Head>
-        <title> Invoice: View | ESAN</title>
+        <title> Invoice: View | Dmerce</title>
       </Head>
 
       <Container maxWidth={themeStretch ? false : 'lg'}>

@@ -256,7 +256,7 @@ export default function CalendarPage() {
   return (
     <>
       <Head>
-        <title> Calendar | ESAN</title>
+        <title> Calendar | Dmerce</title>
       </Head>
 
       <Container maxWidth={themeStretch ? false : 'xl'}>

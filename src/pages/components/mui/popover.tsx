@@ -73,7 +73,7 @@ export default function MUIPopoverPage() {
   return (
     <>
       <Head>
-        <title> MUI Components: Popover | ESAN</title>
+        <title> MUI Components: Popover | Dmerce</title>
       </Head>
 
       <Box

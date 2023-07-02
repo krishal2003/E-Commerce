@@ -11,7 +11,7 @@ export default function RegisterPage() {
   return (
     <>
       <Head>
-        <title> Register | ESAN</title>
+        <title> Register | Dmerce</title>
       </Head>
 
       <GuestGuard>

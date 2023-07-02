@@ -49,7 +49,7 @@ export default function MUIButtonsPage() {
   return (
     <>
       <Head>
-        <title> MUI Components: Buttons | ESAN</title>
+        <title> MUI Components: Buttons | Dmerce</title>
       </Head>
 
       <Box

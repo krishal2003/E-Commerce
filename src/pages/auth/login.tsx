@@ -12,7 +12,7 @@ export default function LoginPage() {
   return (
     <>
       <Head>
-        <title> Login | ESAN</title>
+        <title> Login | Dmerce</title>
       </Head>
 
       <GuestGuard>

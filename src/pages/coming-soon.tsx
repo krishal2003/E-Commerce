@@ -27,7 +27,7 @@ export default function ComingSoonPage() {
   return (
     <>
       <Head>
-        <title> Coming Soon | ESAN</title>
+        <title> Coming Soon | Dmerce</title>
       </Head>
 
       <Typography variant="h3" paragraph>

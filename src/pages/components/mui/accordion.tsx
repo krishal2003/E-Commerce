@@ -50,7 +50,7 @@ export default function MUIAccordionPage() {
   return (
     <>
       <Head>
-        <title> MUI Components: Accordion | ESAN</title>
+        <title> MUI Components: Accordion | Dmerce</title>
       </Head>
 
       <Box

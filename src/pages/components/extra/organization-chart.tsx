@@ -29,7 +29,7 @@ export default function DemoOrganizationalChartPage() {
   return (
     <>
       <Head>
-        <title> Extra Components: Organizational Chart | ESAN</title>
+        <title> Extra Components: Organizational Chart | Dmerce</title>
       </Head>
 
       <Box

@@ -27,7 +27,7 @@ export default function GeneralAppPage() {
   return (
     <>
       <Head>
-        <title> General: App | ESAN</title>
+        <title> General: App | Dmerce</title>
       </Head>
 
       <Container maxWidth={themeStretch ? false : 'xl'}>

@@ -30,7 +30,7 @@ export default function UserProfilePage() {
   return (
     <>
       <Head>
-        <title> User: Profile | ESAN</title>
+        <title> User: Profile | Dmerce</title>
       </Head>
 
       <Container maxWidth={themeStretch ? false : 'lg'}>

@@ -38,7 +38,7 @@ export default function GeneralAnalyticsPage() {
   return (
     <>
       <Head>
-        <title> General: Analytics | ESAN</title>
+        <title> General: Analytics | Dmerce</title>
       </Head>
 
       <Container maxWidth={themeStretch ? false : 'xl'}>

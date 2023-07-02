@@ -38,7 +38,7 @@ export default function EventsPostPage() {
   return (
     <>
       <Head>
-        <title> Events: | ESAN</title>
+        <title> Events: | Dmerce</title>
       </Head>
 
       <Container>

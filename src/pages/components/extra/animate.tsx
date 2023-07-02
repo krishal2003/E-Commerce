@@ -40,7 +40,7 @@ export default function DemoAnimatePage() {
   return (
     <>
       <Head>
-        <title> Extra Components: Animate | ESAN</title>
+        <title> Extra Components: Animate | Dmerce</title>
       </Head>
 
       <Box

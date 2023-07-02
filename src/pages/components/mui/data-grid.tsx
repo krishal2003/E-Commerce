@@ -40,7 +40,7 @@ export default function MUIDataGridPage() {
   return (
     <>
       <Head>
-        <title> MUI Components: DataGrid | ESAN</title>
+        <title> MUI Components: DataGrid | Dmerce</title>
       </Head>
 
       <Box

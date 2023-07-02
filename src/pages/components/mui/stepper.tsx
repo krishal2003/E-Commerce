@@ -25,7 +25,7 @@ export default function MUIStepperPage() {
   return (
     <>
       <Head>
-        <title> MUI Components: Stepper | ESAN</title>
+        <title> MUI Components: Stepper | Dmerce</title>
       </Head>
 
       <Box

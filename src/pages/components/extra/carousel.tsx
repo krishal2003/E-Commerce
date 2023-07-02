@@ -1,7 +1,7 @@
 // next
 import Head from 'next/head';
 // @mui
-  import { Box, Stack, Card, Container, CardHeader, CardContent } from '@mui/material';
+import { Box, Stack, Card, Container, CardHeader, CardContent } from '@mui/material';
 import { Masonry } from '@mui/lab';
 // routes
 import { PATH_PAGE } from '../../../routes/paths';
@@ -41,7 +41,7 @@ export default function DemoCarouselsPage() {
   return (
     <>
       <Head>
-        <title> Extra Components: Carousels | ESAN</title>
+        <title> Extra Components: Carousels | Dmerce</title>
       </Head>
 
       <Box

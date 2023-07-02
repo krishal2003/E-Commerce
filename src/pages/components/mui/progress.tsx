@@ -70,7 +70,7 @@ export default function MUIProgressPage() {
   return (
     <>
       <Head>
-        <title> MUI Components: Progress | ESAN</title>
+        <title> MUI Components: Progress | Dmerce</title>
       </Head>
 
       <Box

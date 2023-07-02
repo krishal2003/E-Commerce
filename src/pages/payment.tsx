@@ -21,7 +21,7 @@ export default function PaymentPage() {
   return (
     <>
       <Head>
-        <title> Payment | ESAN</title>
+        <title> Payment | Dmerce</title>
       </Head>
 
       <Container

@@ -60,7 +60,7 @@ export default function FoundationGridPage() {
   return (
     <>
       <Head>
-        <title> Foundations: Grid | ESAN</title>
+        <title> Foundations: Grid | Dmerce</title>
       </Head>
 
       <Box

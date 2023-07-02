@@ -59,7 +59,7 @@ export default function DemoSnackbarPage() {
   return (
     <>
       <Head>
-        <title> Extra Components: Snackbar | ESAN</title>
+        <title> Extra Components: Snackbar | Dmerce</title>
       </Head>
 
       <Box

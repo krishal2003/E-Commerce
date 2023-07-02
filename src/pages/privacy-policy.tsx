@@ -24,7 +24,7 @@ const myDate: DateObject = getDate();
 
 function privacy(): string {
   const privacyPolicy: string = `
-       ESAN's Privacy Policy describes how ESAN collects, uses, and shares your personal
+       Dmerce's Privacy Policy describes how Dmerce collects, uses, and shares your personal
             data. In addition to this Privacy Policy, we provide data and privacy information
             embedded in our products and certain features that ask to use your personal data.
   `;
@@ -36,13 +36,13 @@ export default function PrivacyPolicy() {
   return (
     <>
       <Head>
-        <title> Privacy Policy | ESAN</title>
+        <title> Privacy Policy | Dmerce</title>
       </Head>
 
       <Container sx={{ pt: 1, pb: 10, position: 'relative' }}>
         <Box sx={{ pb: 3 }}>
           <Typography variant="h2" sx={{ textAlign: 'center', pt: 3 }}>
-            ESAN Privacy Policy
+            Dmerce Privacy Policy
           </Typography>
           <Typography variant="h6" sx={{ textAlign: 'center' }}>
             Last Updated: {myDate.date}

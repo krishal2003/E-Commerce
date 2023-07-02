@@ -198,7 +198,7 @@ export default function EcommerceProductListPage() {
   return (
     <>
       <Head>
-        <title> Ecommerce: Product List | ESAN</title>
+        <title> Ecommerce: Product List | Dmerce</title>
       </Head>
 
       <Container maxWidth={themeStretch ? false : 'lg'}>

@@ -60,7 +60,7 @@ export default function MUIPaginationPage() {
   return (
     <>
       <Head>
-        <title> MUI Components: Pagination | ESAN</title>
+        <title> MUI Components: Pagination | Dmerce</title>
       </Head>
 
       <Box

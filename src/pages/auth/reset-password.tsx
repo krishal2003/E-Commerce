@@ -24,7 +24,7 @@ export default function ResetPasswordPage() {
   return (
     <>
       <Head>
-        <title> Reset Password | ESAN</title>
+        <title> Reset Password | Dmerce</title>
       </Head>
 
       <PasswordIcon sx={{ mb: 5, height: 96 }} />

@@ -236,7 +236,7 @@ export default function InvoiceListPage() {
   return (
     <>
       <Head>
-        <title> Invoice: List | ESAN</title>
+        <title> Invoice: List | Dmerce</title>
       </Head>
 
       <Container maxWidth={themeStretch ? false : 'lg'}>
