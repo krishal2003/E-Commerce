@@ -46,8 +46,8 @@ export default function AboutHero() {
           <br />
 
           <Stack spacing={2} display="inline-flex" direction="row" sx={{ color: 'common.white' }}>
-            <TextAnimate text="we" />
-            <TextAnimate text="are?" />
+            <TextAnimate text="are" />
+            <TextAnimate text="we?" />
           </Stack>
 
           <m.div variants={varFade().inRight}>

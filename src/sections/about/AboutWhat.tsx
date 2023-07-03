@@ -81,8 +81,7 @@ export default function AboutWhat() {
                   color: theme.palette.mode === 'light' ? 'text.secondary' : 'common.white',
                 }}
               >
-            ESAN is a game hosting platform which offers cutting-edge servers and powerful hardware to provide seamless online gaming experiences for players worldwide. With customizable hosting plans, 24/7 customer support, and robust security features, ESAN is a trusted choice for game developers and communities looking for reliable and high-performance game hosting solutions.
-              </Typography>
+We are a team of enthusiastic Web Developers. Starting from the root, learning and developing our skills while creating amazing websites. We promise to provide an amazing website as you expect and ask for.               </Typography>
             </m.div>
 
             <Box sx={{ my: 5 }}>

@@ -43,7 +43,7 @@ export const _addressBooks = [...Array(5)].map((_, index) => ({
 // ----------------------------------------------------------------------
 
 export const _skills = [...Array(3)].map((_, index) => ({
-  label: ['Community', 'Content', 'Security'][index],
+  label: ['HTML', 'CSS', 'JS'][index],
   value: _mock.number.percent(index),
 }));
 
