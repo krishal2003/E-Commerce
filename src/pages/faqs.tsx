@@ -17,7 +17,7 @@ export default function FaqsPage() {
   return (
     <>
       <Head>
-        <title> Faqs | ESAN</title>
+        <title> Faqs | Dmerce</title>
       </Head>
 
       <FaqsHero />

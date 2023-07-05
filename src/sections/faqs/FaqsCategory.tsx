@@ -39,17 +39,17 @@ const CATEGORIES = [
     href: '#',
   },
   {
-    label: 'Game Genres',
+    label: 'Website Requirements',
     icon: '/assets/icons/faqs/ic_package.svg',
     href: '#',
   },
   {
-    label: 'Awards & Prizes ',
+    label: 'Experienced Developers ',
     icon: '/assets/icons/faqs/ic_refund.svg',
     href: '#',
   },
   {
-    label: 'Multiplayer Modes',
+    label: 'Multiple Projects',
     icon: '/assets/icons/faqs/ic_assurances.svg',
     href: '#',
   },
