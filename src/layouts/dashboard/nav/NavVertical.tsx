@@ -8,16 +8,14 @@ import useResponsive from '../../../hooks/useResponsive';
 // config
 import { NAV } from '../../../config-global';
 // components
-import Logo from '../../../components/logo';
 import Scrollbar from '../../../components/scrollbar';
 //
 import NavToggleButton from './NavToggleButton';
 import Size from 'src/components/Cards/Size';
-import Link from 'next/link';
 import Colors from 'src/components/Cards/Colors';
-import Company from 'src/components/Cards/Company';
 import Price from 'src/components/Cards/Price';
 import Submit from 'src/components/Cards/Submit';
+import Gender from 'src/components/Cards/Company';
 
 // ----------------------------------------------------------------------
 
@@ -74,7 +72,7 @@ export default function NavVertical({ openNav, onCloseNav }: Props) {
       >
         <Size />
         <Colors />
-        <Company />
+        <Gender />
         <Price />
         <Box sx={{ mt: -3 }}>
           <Submit />

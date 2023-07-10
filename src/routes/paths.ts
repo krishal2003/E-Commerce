@@ -25,6 +25,7 @@ export const PATH_PAGE = {
   comingSoon: '/coming-soon',
   cart: '/your-cart',
   shop: '/shop',
+  story: '/story',
   blog: {
     root: '/blog',
     view: (title: string) => `/blog/post/${title}`,

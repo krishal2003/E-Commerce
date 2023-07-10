@@ -22,47 +22,48 @@ const navConfig = [
     icon: <Iconify icon="mdi:cart" />,
   },
   {
-    title: 'About Us',
-    path: PATH_PAGE.about,
+    title: 'Contact Us',
+    path: PATH_PAGE.contact,
+    icon: <Iconify icon="mdi:contact" />,
+  },
+  {
+    title: 'Our Story',
+    path: PATH_PAGE.story,
     icon: <Iconify icon="mdi:about" />,
   },
+  // {
+  //   title: 'About Us',
+  //   path: PATH_PAGE.about,
+  //   icon: <Iconify icon="mdi:about" />,
+  // },
 
-  {
-    title: 'Resources',
-    path: '#',
-    icon: (
-      <Iconify
-        icon="grommet-icons:resources
-"
-      />
-    ),
-    children: [
-      {
-        subheader: 'Articles',
-        items: [
-          { title: 'Blogs', path: PATH_PAGE.blog.root },
-          { title: 'Announcements', path: PATH_PAGE.comingSoon },
-          { title: 'Updates', path: PATH_PAGE.comingSoon },
-        ],
-      },
-      {
-        subheader: 'About',
-        items: [
-          { title: 'About Us', path: PATH_PAGE.about },
-          { title: 'Contact Us', path: PATH_PAGE.contact },
-          { title: 'FAQs', path: PATH_PAGE.faqs },
-        ],
-      },
-      {
-        subheader: 'Policies',
-        items: [
-          { title: 'Privacy Policy', path: PATH_PAGE.privacy },
-          { title: 'Cookie Policy', path: PATH_PAGE.cookie },
-          { title: 'Terms and Condition', path: PATH_PAGE.terms },
-        ],
-      },
-    ],
-  },
+  // {
+  //   title: 'Resources',
+  //   path: '#',
+  //   icon: <Iconify icon="grommet-icons:resources" />,
+  //   children: [
+  //     {
+  //       subheader: 'Articles',
+  //       items: [
+  //         { title: 'Blogs', path: PATH_PAGE.blog.root },
+  //         { title: 'Announcements', path: PATH_PAGE.comingSoon },
+  //         { title: 'Updates', path: PATH_PAGE.comingSoon },
+  //       ],
+  //     },
+  //     {
+  //       subheader: 'About',
+  //       items: [
+  //         { title: 'About Us', path: PATH_PAGE.about },
+  //         { title: 'Contact Us', path: PATH_PAGE.contact },
+  //         { title: 'FAQs', path: PATH_PAGE.faqs },
+  //       ],
+  //     },
+  //     {
+  //       subheader: ' © Dmerce  2023',
+  //       items: [],
+  //     },
+  //   ],
+  // },
 ];
 
 export default navConfig;

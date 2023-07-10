@@ -55,77 +55,7 @@ const navConfig = [
     items: [{ title: 'Filter', path: PATH_PAGE.shop, icon: ICONS.filter }],
   },
 
-  // MANAGEMENT
-  // ----------------------------------------------------------------------
-  {
-    subheader: 'Management',
-    items: [
-      {
-        title: 'blogs',
-        path: PATH_DASHBOARD.blog.root,
-        icon: ICONS.blog,
-        children: [
-          { title: 'Your Posts', path: PATH_DASHBOARD.blog.posts },
-          { title: 'Create', path: PATH_DASHBOARD.blog.new },
-        ],
-        roles: [UserRole.Admin, UserRole.BlogWriter],
-      },
-      {
-        title: 'users',
-        path: PATH_DASHBOARD.user.list,
-        icon: ICONS.user,
-        roles: [UserRole.Admin],
-        caption: 'admin only',
-      },
-      {
-        title: 'testimonials',
-        path: PATH_DASHBOARD.testimonial.list,
-        icon: ICONS.testimonial,
-        roles: [UserRole.Admin],
-        caption: 'admin only',
-      },
-      {
-        title: 'FAQ',
-        path: PATH_DASHBOARD.faq.list,
-        icon: ICONS.faq,
-        roles: [UserRole.Admin],
-        caption: 'admin only',
-      },
-      {
-        title: 'Our Team',
-        path: PATH_DASHBOARD.ourTeam.list,
-        icon: ICONS.ourTeam,
-        roles: [UserRole.Admin],
-        caption: 'admin only',
-      },
-      {
-        title: 'Recruit Players',
-        path: PATH_DASHBOARD.organization.freePlayer.list,
-        icon: ICONS.blog,
-        roles: [UserRole.Organization],
-      },
-      {
-        title: 'events',
-        path: PATH_DASHBOARD.event.root,
-        icon: ICONS.blog,
-        children: [
-          { title: 'Your Events', path: PATH_DASHBOARD.event.events },
-          { title: 'Create', path: PATH_DASHBOARD.event.new },
-        ],
-        roles: [UserRole.Organizer],
-      },
-      {
-        title: 'My Teams',
-        path: PATH_DASHBOARD.organization.team.list,
-        icon: ICONS.blog,
-        children: [
-          { title: 'Create', path: PATH_DASHBOARD.organization.team.new },
-          { title: 'View Teams', path: PATH_DASHBOARD.organization.team.list },
-        ],
-        roles: [UserRole.Organization],
-      },
-    ],
-  },
+
 ];
 
 export default navConfig;

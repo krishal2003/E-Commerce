@@ -8,7 +8,7 @@ import { Button, Box, Container, Typography, Stack, Grid, IconButton } from '@mu
 // routes
 import _mock from 'src/_mock/_mock';
 import { _socials } from 'src/_mock/arrays';
-import { PATH_DASHBOARD } from '../../routes/paths';
+import { PATH_DASHBOARD, PATH_PAGE } from '../../routes/paths';
 // utils
 import { textGradient, bgGradient } from '../../utils/cssStyles';
 // theme
@@ -135,7 +135,7 @@ function Description() {
           <Stack alignItems="center" spacing={2}>
             <Button
               component={NextLink}
-              href="/tournaments"
+              href="/shop"
               color="inherit"
               size="large"
               variant="contained"
@@ -155,10 +155,10 @@ function Description() {
             color="inherit"
             size="large"
             variant="outlined"
-            href={PATH_DASHBOARD.root}
+            href={PATH_PAGE.about}
             sx={{ borderColor: 'text.primary' }}
           >
-            Join Us
+            About Us
           </Button>
         </Stack>
       </m.div>

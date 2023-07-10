@@ -3,25 +3,23 @@ import Head from 'next/head';
 // layouts
 import MainLayout from '../layouts/main';
 // sections
-import { AboutHero, AboutWhat, AboutTeam } from '../sections/about';
+import StoryHero from 'src/sections/story/StoryHero';
 
 // ----------------------------------------------------------------------
 
-AboutPage.getLayout = (page: React.ReactElement) => <MainLayout>{page}</MainLayout>;
+Story.getLayout = (page: React.ReactElement) => <MainLayout>{page}</MainLayout>;
 
 // ----------------------------------------------------------------------
 
-export default function AboutPage() {
+export default function Story() {
   return (
     <>
       <Head>
-        <title> About us | Dmerce</title>
+        <title> Our Story | Dmerce</title>
       </Head>
 
-      <AboutHero />
-      <AboutWhat />
+      <StoryHero />
 
-      <AboutTeam />
     </>
   );
 }

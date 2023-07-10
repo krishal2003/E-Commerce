@@ -19,6 +19,7 @@ const LINKS = [
       { name: 'Home', href: PATH_PAGE.home },
       { name: 'Shop', href: PATH_PAGE.shop },
       { name: 'About us', href: PATH_PAGE.about },
+      { name: 'Contact us', href: PATH_PAGE.contact },
     ],
   },
   {

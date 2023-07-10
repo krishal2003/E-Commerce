@@ -1,5 +1,5 @@
 // @mui
-import { Box, Button, Card, Typography } from '@mui/material';
+import { Box, Button, Card, Fab, Typography } from '@mui/material';
 // utils
 // @types
 import { IUserCard } from '../../../../@types/user';
@@ -7,6 +7,9 @@ import { IUserCard } from '../../../../@types/user';
 // components
 import Image from '../../../../components/image';
 import Link from 'next/link';
+import { useDispatch } from 'react-redux';
+import { addToCart } from 'src/redux/slices/product';
+import Iconify from 'src/components/iconify';
 
 // ----------------------------------------------------------------------
 
@@ -17,8 +20,22 @@ type Props = {
 };
 
 export default function ShopCard({ user }: Props) {
-  const { productName, shoeimage, amount } = user;
+  const {id, productName, shoeimage, amount } = user;
+  const dispatch = useDispatch();
 
+  const handleAddCart = async () => {
+    const newProduct = {
+      productName,
+      shoeimage,
+      amount,
+      id
+    };
+    try {
+      dispatch(addToCart(newProduct));
+    } catch (error) {
+      console.error(error);
+    }
+  };
   return (
     <Card sx={{ textAlign: 'center' }}>
       <Box sx={{ position: 'relative' }}>
@@ -34,11 +51,11 @@ export default function ShopCard({ user }: Props) {
       </Typography>
       <Box sx={{ mt: -3, pb: 2 }}>
         <Link href={`/shop/${productName}`} style={{ textDecoration: 'none', color: 'white' }}>
-          <Button variant="contained">Buy</Button>
+          <Button variant="contained">See More</Button>
         </Link>
-        <Link href="/coming-soon" style={{ textDecoration: 'none', color: 'white' }}>
-          <Button>Add to Cart</Button>
-        </Link>
+
+        <Button onClick={handleAddCart}>Add to Cart</Button>
+       
       </Box>
     </Card>
   );

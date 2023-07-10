@@ -10,15 +10,18 @@ import Head from 'next/head';
 Shop.getLayout = (page: React.ReactElement) => <DashboardLayout>{page}</DashboardLayout>;
 
 function Shop() {
-   const { product, isLoading, checkout } = useSelector((state: RootState) => state.product);
+  const { product, isLoading, checkout } = useSelector((state: RootState) => state.product);
 
   return (
-    <><Head>
-      <title>Shop | Dmerce</title>
-    </Head><Container>
+    <>
+      <Head>
+        <title>Shop | Dmerce</title>
+      </Head>
+      <Container>
         <ShopLayout />
         <CartWidget totalItems={checkout.totalItems} />
-      </Container></>
+      </Container>
+    </>
   );
 }
 

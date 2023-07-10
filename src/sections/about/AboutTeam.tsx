@@ -5,7 +5,6 @@ import { useTheme } from '@mui/material/styles';
 import { Box, Card, Container, Stack, Typography } from '@mui/material';
 // _mock_
 import { _carouselsMembers } from '../../_mock/arrays';
-// components
 import Image from '../../components/image';
 import Carousel from '../../components/carousel';
 import { MotionViewport, varFade } from '../../components/animate';
@@ -69,13 +68,13 @@ export default function AboutTeam() {
 
         <Stack
           spacing={1.5}
-          direction={{ xs: 'row', sm: 'row' }}
+          direction={{ xs: 'column', sm: 'row-reverse' }}
           justifyContent="center"
           sx={{ mb: 5, pt: 5 }}
         >
           <MemberCard />
         </Stack>
-    </Container>
+    </Container>  
   );
 }
 
@@ -84,32 +83,38 @@ export default function AboutTeam() {
 function MemberCard() {
   return (
     <Box display="flex" gap={5} justifyContent="center">
-      <Card sx={{ width: '320px', height: '400px' }}>
-        <Typography variant="subtitle1" sx={{ mt: 2, mb: 0.5 }}>
-          Krishal Basnet{' '}
-        </Typography>
+      <Stack
+        spacing={1.5}
+        justifyContent="center"
+        sx={{ mb: 5, pt: 5 }}
+      >
+        <Card sx={{ width: '320px', height: '400px' }}>
+          <Typography variant="subtitle1" sx={{ mt: 2, mb: 0.5 }}>
+            Krishal Basnet{' '}
+          </Typography>
 
-        <Typography variant="body2" sx={{ mb: 1, color: 'text.secondary' }}>
-          Founder
-        </Typography>
+          <Typography variant="body2" sx={{ mb: 1, color: 'text.secondary' }}>
+            Founder
+          </Typography>
 
-        <Box sx={{ px: 1 }}>
-          <Image alt="krishal" src="/assets/krishal.jpg/" ratio="1/1" sx={{ borderRadius: 2 }} />
-        </Box>
-      </Card>
-      <Card sx={{ width: '320px', height: '400px' }}>
-        <Typography variant="subtitle1" sx={{ mt: 2, mb: 0.5 }}>
-          Aayush Sharma{' '}
-        </Typography>
+          <Box sx={{ px: 1 }}>
+            <Image alt="krishal" src="/assets/krishal.jpg/" ratio="1/1" sx={{ borderRadius: 2 }} />
+          </Box>
+        </Card>
+        <Card sx={{ width: '320px', height: '400px' }}>
+          <Typography variant="subtitle1" sx={{ mt: 2, mb: 0.5 }}>
+            Aayush Sharma{' '}
+          </Typography>
 
-        <Typography variant="body2" sx={{ mb: 1, color: 'text.secondary' }}>
-          Co-Founder
-        </Typography>
+          <Typography variant="body2" sx={{ mb: 1, color: 'text.secondary' }}>
+            Co-Founder
+          </Typography>
 
-        <Box sx={{ px: 1 }}>
-          <Image alt="ayush" src="/assets/aayush.jpg/" ratio="1/1" sx={{ borderRadius: 2 }} />
-        </Box>
-      </Card>
+          <Box sx={{ px: 1 }}>
+            <Image alt="ayush" src="/assets/aayush.jpg/" ratio="1/1" sx={{ borderRadius: 2 }} />
+          </Box>
+        </Card>
+      </Stack>
     </Box>
   );
 }

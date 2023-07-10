@@ -109,106 +109,12 @@ export default function ShopItem({ children }: Props) {
 
         <CartWidget totalItems={checkout.totalItems} />
 
-        {product && (
-          <>
-            <Grid container spacing={3}>
-              <Grid item xs={12} md={6} lg={7}>
-                <ProductDetailsCarousel product={product} />
-              </Grid>
-
-              <Grid item xs={12} md={6} lg={5}>
-                <ProductDetailsSummary
-                  product={product}
-                  cart={checkout.cart}
-                  onAddCart={handleAddCart}
-                  onGotoStep={handleGotoStep}
-                />
-              </Grid>
-            </Grid>
-
-            <Box
-              gap={5}
-              display="grid"
-              gridTemplateColumns={{
-                xs: 'repeat(1, 1fr)',
-                md: 'repeat(3, 1fr)',
-              }}
-              sx={{ my: 10 }}
-            >
-              {SUMMARY.map((item) => (
-                <Box key={item.title} sx={{ textAlign: 'center' }}>
-                  <Stack
-                    alignItems="center"
-                    justifyContent="center"
-                    sx={{
-                      width: 64,
-                      height: 64,
-                      mx: 'auto',
-                      borderRadius: '50%',
-                      color: 'primary.main',
-                      bgcolor: (theme) => `${alpha(theme.palette.primary.main, 0.08)}`,
-                    }}
-                  >
-                    <Iconify icon={item.icon} width={36} />
-                  </Stack>
-
-                  <Typography variant="h6" sx={{ mb: 1, mt: 3 }}>
-                    {item.title}
-                  </Typography>
-
-                  <Typography sx={{ color: 'text.secondary' }}>{item.description}</Typography>
-                </Box>
-              ))}
-            </Box>
-
-            <Card>
-              <Tabs
-                value={currentTab}
-                onChange={(event, newValue) => setCurrentTab(newValue)}
-                sx={{ px: 3, bgcolor: 'background.neutral' }}
-              >
-                {TABS.map((tab) => (
-                  <Tab key={tab.value} value={tab.value} label={tab.label} />
-                ))}
-              </Tabs>
-
-              <Divider />
-
-              {TABS.map(
-                (tab) =>
-                  tab.value === currentTab && (
-                    <Box
-                      key={tab.value}
-                      sx={{
-                        ...(currentTab === 'description' && {
-                          p: 3,
-                        }),
-                      }}
-                    >
-                      {tab.component}
-                    </Box>
-                  )
-              )}
-            </Card>
-          </>
-        )}
-
-        {isLoading && <SkeletonProductDetails />}
+        <Box>
+          <Grid item xs={12} md={6} lg={7}>
+           hello
+          </Grid>
+        </Box>
       </Container>
-
-      <Box
-        component="main"
-        sx={{
-          flexGrow: 1,
-          ...(!isHome && {
-            pt: { xs: 8, md: 11 },
-          }),
-        }}
-      >
-        {children}
-      </Box>
-
-      <Footer />
     </Box>
   );
 }

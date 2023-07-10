@@ -119,18 +119,12 @@ export const _socials = [
     path: 'https://www.instagram.com/caitlyn.kerluke',
   },
   {
-    value: 'linkedin',
-    name: 'Linkedin',
-    icon: 'eva:linkedin-fill',
+    value: 'tiktok',
+    name: 'Tiktok',
+    icon: 'ic:baseline-tiktok',
     color: '#007EBB',
-    path: 'https://www.linkedin.com/caitlyn.kerluke',
+    path: 'https://www.tiktok.com/caitlyn.kerluke',
   },
-  {
-    value: 'twitter',
-    name: 'Twitter',
-    icon: 'eva:twitter-fill',
-    color: '#00AAEC',
-    path: 'https://www.twitter.com/',
-  },
+  
 
 ];

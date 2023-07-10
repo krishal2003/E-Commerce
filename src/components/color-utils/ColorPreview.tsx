@@ -6,10 +6,11 @@ import { ColorPreviewProps } from './types';
 
 // ----------------------------------------------------------------------
 
-export default function ColorPreview({ colors, limit = 3, sx }: ColorPreviewProps) {
-  const showColor = colors.slice(0, limit);
+export default function ColorPreview({ colors = [], limit = 3, sx }: ColorPreviewProps) {
+  const showColor = colors && colors.slice(0, limit);
 
-  const moreColor = colors.length - limit;
+  // eslint-disable-next-line no-unsafe-optional-chaining
+  const moreColor = colors?.length - limit;
 
   return (
     <Stack component="span" direction="row" alignItems="center" justifyContent="flex-end" sx={sx}>
