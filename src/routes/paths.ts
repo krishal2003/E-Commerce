@@ -25,6 +25,9 @@ export const PATH_PAGE = {
   comingSoon: '/coming-soon',
   cart: '/your-cart',
   shop: '/shop',
+  featuredProduct1: '/shop/asas',
+  featuredProduct2: '/shop/asdxs',
+  featuredProduct3: '/shop/sadasd',
   story: '/story',
   blog: {
     root: '/blog',

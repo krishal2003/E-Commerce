@@ -5,6 +5,7 @@ export * from './productName';
 export * from './text';
 export * from './email';
 export * from './number';
+export * from './user';
 export * from './address';
 export * from './boolean';
 export * from './company';

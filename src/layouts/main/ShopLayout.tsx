@@ -5,6 +5,7 @@ import { useRouter } from 'next/router';
 import { Box } from '@mui/material';
 import { _shopCards } from 'src/_mock/arrays';
 import ShopCard from 'src/sections/@dashboard/user/cards/ShopCard';
+import SearchBar from 'src/components/SearchBar';
 //
 const ShopHeader = dynamic(() => import('./ShopHeader'), { ssr: false });
 const Footer = dynamic(() => import('./Footer'), { ssr: false });
@@ -23,19 +24,8 @@ export default function ShopLayout({ children }: Props) {
   return (
     <Box sx={{ display: 'flex', flexDirection: 'column', height: 1 }}>
       <ShopHeader />
-      <Box
-        gap={3}
-        display="grid"
-        gridTemplateColumns={{
-          xs: 'repeat(1, 1fr)',
-          sm: 'repeat(2, 1fr)',
-          md: 'repeat(3, 1fr)',
-        }}
-      >
-        {_shopCards.map((user) => (
-          <ShopCard key={user.id} user={user} />
-        ))}
-      </Box>
+      <SearchBar />
+
       <Box
         component="main"
         sx={{

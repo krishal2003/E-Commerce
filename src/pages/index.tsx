@@ -10,6 +10,7 @@ import ScrollProgress from '../components/scroll-progress';
 import { HomeHero, HomeMinimal, RecentPosts } from '../sections/home';
 import { ContactForm } from 'src/sections/contact';
 import ShopHome from './components/shopHome';
+import SearchBar from 'src/components/SearchBar';
 
 // ----------------------------------------------------------------------
 
@@ -27,7 +28,7 @@ export default function HomePage() {
       <ScrollProgress />
 
       <HomeHero />
-      
+
       <Box
         sx={{
           overflow: 'hidden',
@@ -35,9 +36,9 @@ export default function HomePage() {
           bgcolor: 'background.default',
         }}
       >
-        <ShopHome/>
+        <ShopHome />
         <RecentPosts />
-        
+
         <HomeMinimal />
         <Container>
           <Typography variant="h2" sx={{ textAlign: 'center' }}>
