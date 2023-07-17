@@ -84,7 +84,9 @@ function MemberCard() {
   return (
     <Box display="flex" gap={5} justifyContent="center">
       <Stack
+        direction={{ sm: 'row', xm: 'column' }}
         spacing={1.5}
+        gap={5}
         justifyContent="center"
         sx={{ mb: 5, pt: 5 }}
       >
@@ -112,6 +114,19 @@ function MemberCard() {
 
           <Box sx={{ px: 1 }}>
             <Image alt="ayush" src="/assets/aayush.jpg/" ratio="1/1" sx={{ borderRadius: 2 }} />
+          </Box>
+        </Card>
+        <Card sx={{ width: '320px', height: '400px' }}>
+          <Typography variant="subtitle1" sx={{ mt: 2, mb: 0.5 }}>
+            Utkarsha Khadka{' '}
+          </Typography>
+
+          <Typography variant="body2" sx={{ mb: 1, color: 'text.secondary' }}>
+            Co-Founder
+          </Typography>
+
+          <Box sx={{ px: 1 }}>
+            <Image alt="ayush" src="/utkarsha.jpg/" ratio="1/1" sx={{ borderRadius: 2 }} />
           </Box>
         </Card>
       </Stack>
