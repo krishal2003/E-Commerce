@@ -10,6 +10,7 @@ import Link from 'next/link';
 import { useDispatch } from 'react-redux';
 import { addToCart } from 'src/redux/slices/product';
 import Iconify from 'src/components/iconify';
+import { useState } from 'react';
 
 // ----------------------------------------------------------------------
 
@@ -20,15 +21,16 @@ type Props = {
 };
 
 export default function ShopCard({ user }: Props) {
-  const {id, productName, shoeimage, amount } = user;
+  const { id, productName, shoeimage,shoeimagehover, amount } = user;
   const dispatch = useDispatch();
+  const [isHovered, setIsHovered] = useState(false);
 
   const handleAddCart = async () => {
     const newProduct = {
       productName,
       shoeimage,
       amount,
-      id
+      id,
     };
     try {
       dispatch(addToCart(newProduct));
@@ -36,10 +38,24 @@ export default function ShopCard({ user }: Props) {
       console.error(error);
     }
   };
+
+  
+  const handleMouseEnter = () => {
+    setIsHovered(true);
+  };
+
+  const handleMouseLeave = () => {
+    setIsHovered(false);
+  };
+
   return (
     <Card sx={{ textAlign: 'center' }}>
-      <Box sx={{ position: 'relative' }}>
-        <Image src={shoeimage} alt={productName} ratio="4/3" />
+      <Box
+        sx={{ position: 'relative' }}
+        onMouseEnter={handleMouseEnter}
+        onMouseLeave={handleMouseLeave}
+      >
+        <Image src={isHovered ? shoeimagehover : shoeimage} alt={productName} ratio="4/3" />
       </Box>
 
       <Typography variant="subtitle1" sx={{ mt: 2, mb: 1 }}>
@@ -55,7 +71,6 @@ export default function ShopCard({ user }: Props) {
         </Link>
 
         <Button onClick={handleAddCart}>Add to Cart</Button>
-       
       </Box>
     </Card>
   );

@@ -4,7 +4,6 @@ import { useRef } from 'react';
 import { useTheme } from '@mui/material/styles';
 import { Box, Card, Container, Stack, Typography } from '@mui/material';
 // _mock_
-import { _carouselsMembers } from '../../_mock/arrays';
 import Image from '../../components/image';
 import Carousel from '../../components/carousel';
 import { MotionViewport, varFade } from '../../components/animate';

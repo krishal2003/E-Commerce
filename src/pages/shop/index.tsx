@@ -10,7 +10,7 @@ import Head from 'next/head';
 Shop.getLayout = (page: React.ReactElement) => <DashboardLayout>{page}</DashboardLayout>;
 
 function Shop() {
-  const { product, isLoading, checkout } = useSelector((state: RootState) => state.product);
+  const {  checkout } = useSelector((state: RootState) => state.product);
 
   return (
     <>

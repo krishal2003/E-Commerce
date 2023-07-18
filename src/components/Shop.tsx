@@ -5,7 +5,7 @@ import ShopCard from 'src/sections/@dashboard/user/cards/ShopCard';
 import { CustomTextField } from './custom-input';
 import Iconify from './iconify';
 
-export default function SearchBar() {
+export default function Shop() {
   const [query, setQuery] = useState('');
   const filterCards = (card: { productName: string }) =>
     card.productName.toLowerCase().includes(query.toLowerCase());
@@ -42,6 +42,4 @@ export default function SearchBar() {
     </div>
   );
 }
-function push(arg0: string) {
-  throw new Error('Function not implemented.');
-}
+

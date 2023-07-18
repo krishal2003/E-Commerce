@@ -53,8 +53,8 @@ const _mock = {
   amount: (index: number) => amount[index],
   productName: (index: number) => productName[index],
   company: (index: number) => company[index],
-  shoeimage: (index: number) =>
-    `/assets/shoes/shoes_${index + 1}.jpg`,
+  shoeimage: (index: number) => `/assets/shoes/shoes_${index + 1}.jpg`,
+  shoeimagehover: (index: number) => `/assets/krishal.jpg`,
   address: {
     fullAddress: (index: number) => fullAddress[index],
     country: (index: number) => country[index],

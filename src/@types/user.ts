@@ -93,9 +93,10 @@ export type IUserCard = {
   following: number;
   totalPosts: number;
   role: string;
-  amount:string;
-  productName:string;
-  shoeimage:string;
+  amount: string;
+  productName: string;
+  shoeimage: string;
+  shoeimagehover:string;
 };
 
 export type ITournamentCard = {

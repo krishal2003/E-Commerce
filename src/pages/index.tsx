@@ -10,7 +10,7 @@ import ScrollProgress from '../components/scroll-progress';
 import { HomeHero, HomeMinimal, RecentPosts } from '../sections/home';
 import { ContactForm } from 'src/sections/contact';
 import ShopHome from './components/shopHome';
-import SearchBar from 'src/components/SearchBar';
+import SearchBar from 'src/components/Shop';
 
 // ----------------------------------------------------------------------
 

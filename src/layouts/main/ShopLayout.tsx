@@ -3,9 +3,7 @@ import dynamic from 'next/dynamic';
 import { useRouter } from 'next/router';
 // @mui
 import { Box } from '@mui/material';
-import { _shopCards } from 'src/_mock/arrays';
-import ShopCard from 'src/sections/@dashboard/user/cards/ShopCard';
-import SearchBar from 'src/components/SearchBar';
+import Shop from 'src/components/Shop';
 //
 const ShopHeader = dynamic(() => import('./ShopHeader'), { ssr: false });
 const Footer = dynamic(() => import('./Footer'), { ssr: false });
@@ -24,7 +22,7 @@ export default function ShopLayout({ children }: Props) {
   return (
     <Box sx={{ display: 'flex', flexDirection: 'column', height: 1 }}>
       <ShopHeader />
-      <SearchBar />
+      <Shop />
 
       <Box
         component="main"

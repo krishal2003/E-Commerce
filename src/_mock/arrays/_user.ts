@@ -99,11 +99,12 @@ export const _userCards = [...Array(6)].map((_, index) => ({
   productName: _mock.productName(index),
 }));
 
-export const _featuredCards = [...Array(6)].map((_, index) => ({
+export const _featuredCards = [...Array(2)].map((_, index) => ({
   id: _mock.id(index),
   avatarUrl: _mock.image.avatar(index),
   cover: _mock.image.cover(index),
   shoeimage: _mock.shoeimage(index),
+  shoeimagehover: _mock.shoeimagehover(index),
   name: _mock.name.fullName(index),
   follower: randomNumberRange(999, 99999),
   following: randomNumberRange(999, 99999),
@@ -114,11 +115,12 @@ export const _featuredCards = [...Array(6)].map((_, index) => ({
 }));
 
 
-export const _shopCards = [...Array(18)].map((_, index) => ({
+export const _shopCards = [...Array(2)].map((_, index) => ({
   id: _mock.id(index),
   avatarUrl: _mock.image.avatar(index),
   cover: _mock.image.cover(index),
   shoeimage: _mock.shoeimage(index),
+  shoeimagehover: _mock.shoeimagehover(index),
   name: _mock.name.fullName(index),
   follower: randomNumberRange(999, 99999),
   following: randomNumberRange(999, 99999),

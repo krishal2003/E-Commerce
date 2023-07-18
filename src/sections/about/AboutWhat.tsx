@@ -1,16 +1,13 @@
 import { m } from 'framer-motion';
 // @mui
 import { alpha, useTheme, styled } from '@mui/material/styles';
-import { Box, Grid, Button, Container, Typography, LinearProgress } from '@mui/material';
+import { Box, Grid, Container, Typography, LinearProgress } from '@mui/material';
 // hooks
 import useResponsive from '../../hooks/useResponsive';
 // utils
 import { fPercent } from '../../utils/formatNumber';
-// _mock_
-import { _skills } from '../../_mock/arrays';
 // components
 import Image from '../../components/image';
-import Iconify from '../../components/iconify';
 import { MotionViewport, varFade } from '../../components/animate';
 
 // ----------------------------------------------------------------------
@@ -62,7 +59,7 @@ export default function AboutWhat() {
                   <m.div variants={varFade().inUp}>
                     <Image
                       alt="our office 2"
-                      src="/assets/images/about/what_2.jpg"
+                      src="/assets/images/about/what_1.jpg"
                       ratio="1/1"
                       sx={{ borderRadius: 2 }}
                     />
@@ -79,32 +76,32 @@ export default function AboutWhat() {
                   color: theme.palette.mode === 'light' ? 'text.secondary' : 'common.white',
                 }}
               >
-                Dmerce is a game hosting platform which offers cutting-edge servers and powerful
-                hardware to provide seamless online gaming experiences for players worldwide. With
-                customizable hosting plans, 24/7 customer support, and robust security features,
-                Dmerce is a trusted choice for game developers and communities looking for reliable
-                and high-performance game hosting solutions.
+                Welcome to DMERCE, your premier destination for online shopping based in Kathmandu,
+                Nepal! At DMERCE, we strive to provide you with a seamless and delightful shopping
+                experience, bringing you a wide range of products right at your fingertips. DMERCE
+                was founded with a simple yet powerful vision – to revolutionize the way people shop
+                online in Nepal. We saw a need for a reliable and customer-centric e-commerce
+                platform that offers convenience, quality, and exceptional service. We have been
+                dedicated to building a trusted brand that caters to the diverse needs of our
+                customers.
+                <br />
+                <br />
+                At DMERCE, we are committed to exceeding your expectations by offering a vast
+                selection of products from various categories, including electronics, fashion, home
+                appliances, beauty, and much more. We partner with trusted local and international
+                suppliers to ensure that you have access to authentic and high-quality products. We
+                are thrilled to be a part of your shopping journey and look forward to serving you
+                with the utmost dedication and excellence. Happy shopping!
               </Typography>
             </m.div>
 
-            <Box sx={{ my: 5 }}>
-              {_skills.map((progress) => (
-                <m.div key={progress.label} variants={varFade().inRight}>
-                  <ProgressItem progress={progress} />
-                </m.div>
-              ))}
-            </Box>
-
-            <m.div variants={varFade().inRight}>
-              <Button
-                variant="outlined"
-                color="inherit"
-                size="large"
-                endIcon={<Iconify icon="ic:round-arrow-right-alt" width={24} />}
-              >
-                Check out our work
-              </Button>
-            </m.div>
+            {/* <Box sx={{ my: 5 }}>
+                {_skills.map((progress) => (
+                  <m.div key={progress.label} variants={varFade().inRight}>
+                    <ProgressItem progress={progress} />
+                  </m.div>
+                ))}
+              </Box> */}
           </Grid>
         </Grid>
       </Container>
