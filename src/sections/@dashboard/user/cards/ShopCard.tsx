@@ -21,7 +21,7 @@ type Props = {
 };
 
 export default function ShopCard({ user }: Props) {
-  const { id, productName, shoeimage,shoeimagehover, amount } = user;
+  const { id, productName, shoeimage, shoeimagehover, amount } = user;
   const dispatch = useDispatch();
   const [isHovered, setIsHovered] = useState(false);
 
@@ -39,7 +39,6 @@ export default function ShopCard({ user }: Props) {
     }
   };
 
-  
   const handleMouseEnter = () => {
     setIsHovered(true);
   };
@@ -70,7 +69,9 @@ export default function ShopCard({ user }: Props) {
           <Button variant="contained">See More</Button>
         </Link>
         <Link
-          href="https://www.instagram.com/direct/t/17842843815034312" target='_blank' style={{ textDecoration: 'none', color: 'white' }}
+          href="https://www.instagram.com/dmerce.np/"
+          target="_blank"
+          style={{ textDecoration: 'none', color: 'white' }}
         >
           <Button>DM us Now!</Button>
         </Link>
