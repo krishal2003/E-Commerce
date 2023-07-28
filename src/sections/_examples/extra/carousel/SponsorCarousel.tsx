@@ -119,13 +119,15 @@ function CarouselItem({ item, isActive }: CarouselItemProps) {
           </Typography>
         </m.div>
 
-        <Link href={link}>
-          <m.div variants={varFade().inRight}>
-            <Button variant="contained" sx={{ mt: 0 }}>
-              View More
-            </Button>
-          </m.div>
-        </Link>
+        <Box >
+          <Link href={link} style={{ textDecoration: 'none', color: 'white' }}>
+            <m.div variants={varFade().inRight}>
+              <Button variant="contained" sx={{ mt: 0 }}>
+                View More
+              </Button>
+            </m.div>
+          </Link>
+        </Box>
       </CardContent>
     </Paper>
   );
