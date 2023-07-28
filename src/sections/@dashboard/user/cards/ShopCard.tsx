@@ -69,8 +69,11 @@ export default function ShopCard({ user }: Props) {
         <Link href={`/shop/${productName}`} style={{ textDecoration: 'none', color: 'white' }}>
           <Button variant="contained">See More</Button>
         </Link>
-
-        <Button onClick={handleAddCart}>Add to Cart</Button>
+        <Link
+          href="https://www.instagram.com/direct/t/17842843815034312" target='_blank' style={{ textDecoration: 'none', color: 'white' }}
+        >
+          <Button>DM us Now!</Button>
+        </Link>
       </Box>
     </Card>
   );

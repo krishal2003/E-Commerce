@@ -16,11 +16,11 @@ const navConfig = [
     path: PATH_PAGE.shop,
     icon: <Iconify icon="material-symbols:shop-sharp" />,
   },
-  {
-    title: 'Your Cart',
-    path: PATH_PAGE.cart,
-    icon: <Iconify icon="mdi:cart" />,
-  },
+  // {
+  //   title: 'Your Cart',
+  //   path: PATH_PAGE.cart,
+  //   icon: <Iconify icon="mdi:cart" />,
+  // },
   {
     title: 'Contact Us',
     path: PATH_PAGE.contact,
