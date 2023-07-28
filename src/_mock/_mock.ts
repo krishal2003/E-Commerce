@@ -54,7 +54,8 @@ const _mock = {
   productName: (index: number) => productName[index],
   company: (index: number) => company[index],
   shoeimage: (index: number) => `/assets/shoes/shoes_${index + 1}.jpg`,
-  shoeimagehover: (index: number) => `/assets/krishal.jpg`,
+  shoeimagehover: (index: number) => `/assets/hover/hover_${index + 1}.jpg`,
+
   address: {
     fullAddress: (index: number) => fullAddress[index],
     country: (index: number) => country[index],
@@ -85,7 +86,7 @@ const _mock = {
       `https://api-dev-minimal-v4.vercel.app/assets/images/products/product_${index + 1}.jpg`,
     avatar: (index: number) =>
       `https://api-dev-minimal-v4.vercel.app/assets/images/avatars/avatar_${index + 1}.jpg`,
-    sponsor: (index: number) => `/assets/shoe/shoes_${index + 1}.jpg`,
+    sponsor: (index: number) => `/assets/collection/emerge_${index + 1}.jpg`,
   },
 };
 

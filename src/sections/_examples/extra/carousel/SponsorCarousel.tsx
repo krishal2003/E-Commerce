@@ -30,10 +30,10 @@ export default function CarouselAnimation({ data }: Props) {
   const [currentIndex, setCurrentIndex] = useState(theme.direction === 'rtl' ? data.length - 1 : 0);
 
   const carouselSettings = {
-    speed: 800,
+    speed: 500,
     dots: false,
     arrows: false,
-    autoplay: true,
+    autoplay: false,
     slidesToShow: 1,
     slidesToScroll: 1,
     rtl: Boolean(theme.direction === 'rtl'),
@@ -80,7 +80,7 @@ type CarouselItemProps = {
 function CarouselItem({ item, isActive }: CarouselItemProps) {
   const theme = useTheme();
 
-  const { sponsor, title,link } = item;
+  const { sponsor, title, link } = item;
 
   return (
     <Paper sx={{ position: 'relative' }}>
@@ -119,11 +119,13 @@ function CarouselItem({ item, isActive }: CarouselItemProps) {
           </Typography>
         </m.div>
 
+        <Link href={link}>
           <m.div variants={varFade().inRight}>
             <Button variant="contained" sx={{ mt: 0 }}>
               View More
             </Button>
           </m.div>
+        </Link>
       </CardContent>
     </Paper>
   );

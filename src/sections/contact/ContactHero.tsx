@@ -10,8 +10,8 @@ import { TextAnimate, MotionContainer, varFade } from '../../components/animate'
 const CONTACTS = [
   {
     country: 'Nepal',
-    email: 'dmerce@gmail.com',
-    address: 'Kalanki,Kathmandu',        
+    email: 'dmerce.np@gmail.com',
+    address: 'Kalanki,Kathmandu',
     phoneNumber: ' 9840030835',
   },
   {
@@ -90,10 +90,9 @@ export default function ContactHero() {
                 </m.div>
 
                 <m.div variants={varFade().inRight}>
-                  <Typography variant="h6"> 
+                  <Typography variant="h6">
                     {contact.address}
-                    <br/>
-
+                    <br />
                     {contact.email}
                     <br /> {contact.phoneNumber}
                   </Typography>

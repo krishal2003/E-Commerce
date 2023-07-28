@@ -1,7 +1,8 @@
 // ----------------------------------------------------------------------
 
 export const productName = [
- 'Dmerce Future Edition Tees',
- 'Dmerce Future Edition Socks',
+ 'Dmerce Domination Heavyweight Tees',
+ 'Dmerce Unity Heavyweight Tees',
+ 'Dmerce Maintain Heavyweight Tees',
 ];
   

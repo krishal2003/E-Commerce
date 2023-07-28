@@ -34,7 +34,7 @@ const LINKS = [
     headline: 'Contact',
     children: [
       { name: '+977 9840030835', href: 'tel:9840030835' },
-      { name: 'dmerce@gmail.com', href: 'mailto:dmerce@gmail.com' },
+      { name: 'dmerce.np@gmail.com', href: 'mailto:dmerce.np@gmail.com' },
       { name: 'Kalanki, Kathmandu', href: '#' },
     ],
   },
@@ -137,7 +137,6 @@ export default function Footer() {
         >
           © Dmerce {new Date().getFullYear()}
         </Typography>
-        
       </Container>
     </Box>
   );

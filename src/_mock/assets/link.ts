@@ -1,7 +1,7 @@
 // ----------------------------------------------------------------------
 
 export const link = [
-  'https://dmerce.vercel.app/shop/Nike%20Terminator%20High/',
+  '/emerge-collection',
   'ashlynn_ohara62@gmail.com',
   'milo.farrell@hotmail.com',
   'violet.ratke86@yahoo.com',
