@@ -61,9 +61,9 @@ const navConfig = [
       {
         subheader: `Today's Special`,
         items: [
-          { title: 'Dmerce Limited Edtion Hoddie', path: PATH_PAGE.featuredProduct1 },
-          { title: 'Dmerce Cap', path: PATH_PAGE.featuredProduct3 },
-          { title: 'Dmerce Space Edition Tees', path: PATH_PAGE.featuredProduct2 },
+          { title: 'Dmerce Domination Heavyweight Tees', path: PATH_PAGE.featuredProduct1 },
+          { title: 'Dmerce Maintain Heavyweight Tees', path: PATH_PAGE.featuredProduct3 },
+          { title: 'Dmerce Unity Heavyweight Tees', path: PATH_PAGE.featuredProduct2 },
         ],
       },
       {

@@ -21,13 +21,13 @@ export const PATH_AUTH = {
 };
 
 export const PATH_PAGE = {
-  home:'/',
+  home: '/',
   comingSoon: '/coming-soon',
   cart: '/your-cart',
   shop: '/shop',
-  featuredProduct1: '/shop/asas',
-  featuredProduct2: '/shop/asdxs',
-  featuredProduct3: '/shop/sadasd',
+  featuredProduct1: '/shop/Dmerce%20Domination%20Heavyweight%20Tees/',
+  featuredProduct2: '/shop/Dmerce%20Unity%20Heavyweight%20Tees/',
+  featuredProduct3: '/shop/Dmerce%20Maintain%20Heavyweight%20Tees/',
   story: '/story',
   blog: {
     root: '/blog',

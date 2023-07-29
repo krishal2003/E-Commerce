@@ -51,8 +51,8 @@ export default function ShopCard({ user }: Props) {
     <Card sx={{ textAlign: 'center' }}>
       <Box
         sx={{ position: 'relative' }}
-        onMouseEnter={handleMouseEnter}
-        onMouseLeave={handleMouseLeave}
+        // onMouseEnter={handleMouseEnter}
+        // onMouseLeave={handleMouseLeave}
       >
         <Image src={isHovered ? shoeimagehover : shoeimage} alt={productName} ratio="4/3" />
       </Box>
