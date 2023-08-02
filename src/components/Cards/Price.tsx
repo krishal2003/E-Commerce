@@ -2,7 +2,7 @@ import React, { useState } from 'react';
 import { Slider, Typography } from '@mui/material';
 
 const Price = () => {
-  const [value, setValue] = useState<[number, number]>([1500, 4000]);
+  const [value, setValue] = useState<[number, number]>([1000, 4500]);
 
   const handleChange = (event: Event, newValue: number | number[]) => {
     setValue(newValue as [number, number]);
@@ -22,8 +22,8 @@ const Price = () => {
         onChange={handleChange}
         valueLabelDisplay="on"
         aria-labelledby="range-slider"
-        min={1500}
-        max={4000}
+        min={1000}
+        max={4500}
         sx={{ width: '200px' }}
       />
     </div>
