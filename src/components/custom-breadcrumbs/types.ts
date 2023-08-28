@@ -4,7 +4,7 @@ import { BreadcrumbsProps } from '@mui/material';
 // ----------------------------------------------------------------------
 
 export type BreadcrumbsLinkProps = {
-  name?: string;
+  name?: string ;
   href?: string;
   icon?: React.ReactElement;
 };

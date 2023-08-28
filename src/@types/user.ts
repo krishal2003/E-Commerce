@@ -146,7 +146,7 @@ export type IUserCard = {
   amount: string;
   productName: string;
   shoeimage: string;
-  shoeimagehover:string;
+  shoeimagehover: string;
 };
 
 export type ITournamentCard = {
