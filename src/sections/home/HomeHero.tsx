@@ -41,7 +41,7 @@ const StyledDescription = styled('div')(({ theme }) => ({
   flexDirection: 'column',
   alignItems: 'flex-start',
   justifyContent: 'center',
-  paddingTop: theme.spacing(15),
+  paddingTop: theme.spacing(10),
   height: '100%',
 }));
 
@@ -190,7 +190,7 @@ function Description() {
 // ----------------------------------------------------------------------
 
 function Content() {
-  const _carouselsExample = [...Array(5)].map((_, index) => ({
+  const _carouselsExample = [...Array(2)].map((_, index) => ({
     id: _mock.id(index),
     title: _mock.text.title(index),
     sponsor: _mock.image.sponsor(index),
@@ -208,7 +208,7 @@ function Content() {
       }}
     >
       <Grid item xs={12}>
-        <Box sx={{ pt: 5 }}>
+        <Box sx={{ pt: 3 }}>
           <SponsorCarousel data={_carouselsExample} />
         </Box>
       </Grid>

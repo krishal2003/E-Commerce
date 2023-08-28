@@ -64,8 +64,18 @@ export default function Header() {
 
           {isDesktop && <NavDesktop isOffset={isOffset} data={navConfig} />}
 
-       
           {!isDesktop && <NavMobile isOffset={isOffset} data={navConfig} />}
+          <Box sx={{ ml: isDesktop ? -5 : 0 }}>
+            <IconButton
+              color={themeMode === 'dark' ? 'warning' : 'default'}
+              onClick={onToggleMode}
+              sx={{ ml: 1 }}
+            >
+              <SvgColor
+                src={`/assets/icons/setting/ic_${themeMode === 'light' ? 'moon' : 'sun'}.svg`}
+              />
+            </IconButton>
+          </Box>
         </Container>
       </Toolbar>
 

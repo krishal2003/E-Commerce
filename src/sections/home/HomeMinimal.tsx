@@ -12,20 +12,17 @@ const CARDS = [
   {
     icon: ' /assets/icons/home/ic_make_brand.svg',
     title: 'Services',
-    description:
-      'Exceptional customer support, prompt assistance, and personalized care for utmost satisfaction.',
+    description: `Discover diverse styles that cater to every individual's unique fashion preferences.`,
   },
   {
     icon: ' /assets/icons/home/ic_design.svg',
     title: 'Variety',
-    description:
-      ' Extensive range of products for diverse preferences, ensuring a fulfilling shopping experience.',
+    description: `Experience exceptional customer care and personalized assistance for a seamless shopping journey.`,
   },
   {
     icon: ' /assets/icons/home/ic_development.svg',
     title: 'Online',
-    description:
-      'Robust measures protect customer data, ensuring a safe and trustworthy shopping environment. ',
+    description: `Seamlessly connect through Instagram and TikTok for trending styles, while our website offers easy exploration.`,
   },
 ];
 

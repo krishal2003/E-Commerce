@@ -2,6 +2,7 @@
 
 export const title = [
   `Emerge: The Triad of Harmony Collection`,
+  `Dmerce: Plain Black Heavyweight Tees`,
   
 ];
 

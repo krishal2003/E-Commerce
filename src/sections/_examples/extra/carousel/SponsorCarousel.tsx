@@ -84,7 +84,7 @@ function CarouselItem({ item, isActive }: CarouselItemProps) {
 
   return (
     <Paper sx={{ position: 'relative' }}>
-      <Image alt={title} src={sponsor} ratio="16/9" />
+      <Image alt={title} src={sponsor} ratio="4/3" />
 
       <Box
         sx={{
