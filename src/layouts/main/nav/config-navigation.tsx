@@ -21,11 +21,11 @@ const navConfig = [
   //   path: PATH_PAGE.cart,
   //   icon: <Iconify icon="mdi:cart" />,
   // },
-  {
-    title: 'Contact Us',
-    path: PATH_PAGE.contact,
-    icon: <Iconify icon="mdi:contact" />,
-  },
+  // {
+  //   title: 'Contact Us',
+  //   path: PATH_PAGE.contact,
+  //   icon: <Iconify icon="mdi:contact" />,
+  // },
   // {
   //   title: 'Our Story',
   //   path: PATH_PAGE.story,

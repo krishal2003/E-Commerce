@@ -42,8 +42,11 @@ export default function EmergeCollection() {
           ))}
         </Box>
         <Box sx={{ pb: 4 }}>
-          <Typography variant="h5" >The first DMERCE drop is a reflection to the human history. As the name suggestes, Emerge reflects the journey of overcoming domination and destruction, moving towards
-            unity and diversity, and ultimately achieving balance and harmony. The phrase &ldquo;The Triad of Harmony&rdquo; emphasizes the three distinct phases represented by the
+          <Typography variant="h5">
+            The first DMERCE drop is a reflection to the human history. As the name suggestes,
+            Emerge reflects the journey of overcoming domination and destruction, moving towards
+            unity and diversity, and ultimately achieving balance and harmony. The phrase &ldquo;The
+            Triad of Harmony&rdquo; emphasizes the three distinct phases represented by the
             individual tees.
           </Typography>
         </Box>

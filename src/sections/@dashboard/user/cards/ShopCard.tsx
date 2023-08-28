@@ -50,11 +50,11 @@ export default function ShopCard({ user }: Props) {
   return (
     <Card sx={{ textAlign: 'center' }}>
       <Box
-        sx={{ position: 'relative' }}
+        sx={{ position: 'relative',alignItems:'top' }}
         // onMouseEnter={handleMouseEnter}
         // onMouseLeave={handleMouseLeave}
       >
-        <Image src={isHovered ? shoeimagehover : shoeimage} alt={productName} ratio="4/3" />
+        <Image src={isHovered ? shoeimagehover : shoeimage} alt={productName} ratio="9/16"  />
       </Box>
 
       <Typography variant="subtitle1" sx={{ mt: 2, mb: 1 }}>

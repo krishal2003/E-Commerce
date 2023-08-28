@@ -1,4 +1,5 @@
 // ----------------------------------------------------------------------
+export const productid = [1, 2, 3, 4, 5, 6, 7, 8];
 
 export const email = [
   'nannie_abernathy70@yahoo.com',

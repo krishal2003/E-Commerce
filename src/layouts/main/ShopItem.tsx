@@ -107,7 +107,6 @@ export default function ShopItem({ children }: Props) {
           ]}
         />
 
-        <CartWidget totalItems={checkout.totalItems} />
 
         <Box>
           <Grid item xs={12} md={6} lg={7}>

@@ -23,7 +23,7 @@ const CARDS = [
   },
   {
     icon: ' /assets/icons/home/ic_development.svg',
-    title: 'Security',
+    title: 'Online',
     description:
       'Robust measures protect customer data, ensuring a safe and trustworthy shopping environment. ',
   },

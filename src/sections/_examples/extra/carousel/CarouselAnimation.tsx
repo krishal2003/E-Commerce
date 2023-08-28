@@ -49,18 +49,18 @@ export default function CarouselAnimation({ data }: Props) {
 
   return (
     <Card>
-      <Carousel ref={carouselRef} {...carouselSettings}>
+      {/* <Carousel ref={carouselRef} {...carouselSettings}> */}
         {data.map((item, index) => (
           <CarouselItem key={item.id} item={item} isActive={index === currentIndex} />
         ))}
-      </Carousel>
+      {/* </Carousel> */}
 
-      <CarouselArrowIndex
+      {/* <CarouselArrowIndex
         index={currentIndex}
         total={data.length}
         onNext={handleNext}
         onPrevious={handlePrev}
-      />
+      /> */}
     </Card>
   );
 }
