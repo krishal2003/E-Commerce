@@ -50,11 +50,11 @@ export default function ShopCard({ user }: Props) {
   return (
     <Card sx={{ textAlign: 'center' }}>
       <Box
-        sx={{ position: 'relative',alignItems:'top' }}
+        sx={{ position: 'relative', alignItems: 'top' }}
         // onMouseEnter={handleMouseEnter}
         // onMouseLeave={handleMouseLeave}
       >
-        <Image src={isHovered ? shoeimagehover : shoeimage} alt={productName} ratio="9/16"  />
+        <Image src={isHovered ? shoeimagehover : shoeimage} alt={productName} ratio="9/16" />
       </Box>
 
       <Typography variant="subtitle1" sx={{ mt: 2, mb: 1 }}>
@@ -65,7 +65,7 @@ export default function ShopCard({ user }: Props) {
         Rs. {amount}
       </Typography>
       <Box sx={{ mt: -3, pb: 2 }}>
-        <Link href={`/shop/${productName}`} style={{ textDecoration: 'none', color: 'white' }}>
+        <Link href= '/maintenance' style={{ textDecoration: 'none', color: 'white' }}>
           <Button variant="contained">See More</Button>
         </Link>
         <Link
