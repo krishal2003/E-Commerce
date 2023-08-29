@@ -5,7 +5,7 @@ import { useRouter } from 'next/router';
 import { Box } from '@mui/material';
 import Shop from 'src/components/Shop';
 //
-const ShopHeader = dynamic(() => import('./ShopHeader'), { ssr: false });
+// const ShopHeader = dynamic(() => import('./ShopHeader'), { ssr: false });
 // const Footer = dynamic(() => import('./Footer'), { ssr: false });
 
 // ----------------------------------------------------------------------
@@ -21,7 +21,7 @@ export default function ShopLayout({ children }: Props) {
 
   return (
     <Box sx={{ display: 'flex', flexDirection: 'column', height: 1 }}>
-      <ShopHeader />
+      {/* <ShopHeader /> */}
       <Shop />
 
       <Box

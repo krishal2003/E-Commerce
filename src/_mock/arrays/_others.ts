@@ -123,6 +123,6 @@ export const _socials = [
     name: 'Tiktok',
     icon: 'ic:baseline-tiktok',
     color: '#007EBB',
-    path: 'https://www.tiktok.com/@dmerce.np?_t=8eMC3Cg4xov&_r=1',
+    path: 'https://www.tiktok.com/@dmerce_np?_t=8fFU6WcQdkt&_r=1',
   },
 ];
