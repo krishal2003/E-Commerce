@@ -1,6 +1,7 @@
 // ----------------------------------------------------------------------
 
 export const title = [
+  `Dmerce: Winter Dream Collection`,
   `Emerge: The Triad of Harmony Collection`,
   `Dmerce: Plain Black Heavyweight Tees`,
   

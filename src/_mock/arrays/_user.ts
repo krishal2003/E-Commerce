@@ -115,7 +115,7 @@ export const _featuredCards = [...Array(3)].map((_, index) => ({
   productName: _mock.productName(index),
 }));
 
-export const _emergeCards = [...Array(3)]
+export const _emergeCards = [...Array(4)]
   .map((_, index) => ({
     id: _mock.id(index),
     avatarUrl: _mock.image.avatar(index),
@@ -130,9 +130,9 @@ export const _emergeCards = [...Array(3)]
     amount: _mock.amount(index),
     productName: _mock.productName(index),
   }))
-  .slice(0, 3);
+  .slice(0, 4);
 
-export const _shopCards = [...Array(4)].map((_, index) => ({
+export const _shopCards = [...Array(7)].map((_, index) => ({
   id: _mock.id(index),
   avatarUrl: _mock.image.avatar(index),
   cover: _mock.image.cover(index),
